@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name mainboard)(type Legacy)(uri ${KIPRJMOD}/lib-symbols/mainboard.lib)(options "")(descr ""))
+  (lib (name mainboard-rescue)(type Legacy)(uri ${KIPRJMOD}/lib-symbols/mainboard-rescue.lib)(options "")(descr ""))
+  (lib (name SLI-Blank-Card)(type Legacy)(uri ${KIPRJMOD}/lib-symbols/SLI-Blank-Card.lib)(options "")(descr ""))
+  (lib (name mainboard_SLI)(type Legacy)(uri ${KIPRJMOD}/lib-symbols/mainboard_SLI.lib)(options "")(descr ""))
+)

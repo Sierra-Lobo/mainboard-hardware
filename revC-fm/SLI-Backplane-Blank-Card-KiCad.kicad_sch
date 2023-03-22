@@ -1,0 +1,30 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 82a9a530-e248-4dc9-896c-25f6d73fe113)
+
+  (paper "B")
+
+  (title_block
+    (title "Blank Card for SLI Backplane")
+    (date "2021-11-05")
+    (rev "A")
+    (company "Sierra Lobo INC.")
+  )
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 101.6 16.51) (xy 101.6 199.39))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 04ecc5b9-1245-4cd5-a81b-6d27476f97b6)
+  )
+  (polyline (pts (xy 101.6 199.39) (xy 15.24 199.39))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2dd0add1-9a95-4b8c-a47a-bb7c827bbb1c)
+  )
+  (polyline (pts (xy 1041.4 464.82) (xy 1041.4 452.12))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a5c7f988-1d57-48d4-82d1-1deaeac9e184)
+  )
+)

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9543APW,118
+D 2-channel I2C-bus multiplexer with interrupt logic, TSSOP-14
+K i2c multiplexer
+F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
+$ENDCMP
+#
+$CMP TPS63070
+K Buck-Boost converter 5V
+$ENDCMP
+#
+#End Doc Library
