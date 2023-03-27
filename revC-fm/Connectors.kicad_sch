@@ -714,11 +714,11 @@
   (symbol (lib_id "mainboard:503182-1852") (at 62.23 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000449c7c68)
-    (property "Reference" "J4" (at 62.23 40.0558 0)
-      (effects (font (size 2.159 2.159)) (justify left bottom))
+    (property "Reference" "J3" (at 62.23 40.0558 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "503182-1852" (at 62.23 79.3496 0)
-      (effects (font (size 2.159 2.159)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "mainboard:MOLEX_503182-1852" (at 62.23 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -759,7 +759,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -768,11 +768,11 @@
   (symbol (lib_id "mainboard:GND") (at 44.45 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d35314f)
-    (property "Reference" "#GND073" (at 44.45 124.46 0)
+    (property "Reference" "#GND057" (at 44.45 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 127 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 44.45 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -784,7 +784,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#GND073") (unit 1)
+          (reference "#GND057") (unit 1)
         )
       )
     )
@@ -793,7 +793,7 @@
   (symbol (lib_id "mainboard-rescue:Conn_01x05-Connector_Generic-mainboard-rescue") (at 54.61 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d355cd9)
-    (property "Reference" "J3" (at 53.34 109.22 0)
+    (property "Reference" "J4" (at 53.34 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05" (at 56.642 118.0846 0)
@@ -819,7 +819,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -828,11 +828,11 @@
   (symbol (lib_id "mainboard:3.3V") (at 44.45 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d35c898)
-    (property "Reference" "#SUPPLY027" (at 44.45 111.76 0)
+    (property "Reference" "#SUPPLY016" (at 44.45 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 43.434 108.204 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 44.45 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -844,7 +844,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#SUPPLY027") (unit 1)
+          (reference "#SUPPLY016") (unit 1)
         )
       )
     )
@@ -853,7 +853,7 @@
   (symbol (lib_id "Device:R_US") (at 71.12 41.91 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de54ed2)
-    (property "Reference" "R135" (at 68.58 39.37 0)
+    (property "Reference" "R107" (at 68.58 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 74.93 43.18 0)
@@ -873,7 +873,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "R135") (unit 1)
+          (reference "R107") (unit 1)
         )
       )
     )
@@ -882,11 +882,11 @@
   (symbol (lib_id "mainboard:GND") (at 85.09 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000b0e7a0af)
-    (property "Reference" "#GND076" (at 85.09 78.74 0)
+    (property "Reference" "#GND056" (at 85.09 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 81.28 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 85.09 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -898,7 +898,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#GND076") (unit 1)
+          (reference "#GND056") (unit 1)
         )
       )
     )
@@ -907,11 +907,11 @@
   (symbol (lib_id "mainboard:GND") (at 69.85 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000d1df28fe)
-    (property "Reference" "#GND074" (at 69.85 78.74 0)
+    (property "Reference" "#GND055" (at 69.85 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 81.28 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 69.85 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -923,7 +923,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#GND074") (unit 1)
+          (reference "#GND055") (unit 1)
         )
       )
     )
@@ -932,11 +932,11 @@
   (symbol (lib_id "mainboard:3.3V") (at 85.09 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000e0b04c0e)
-    (property "Reference" "#SUPPLY029" (at 85.09 36.83 0)
+    (property "Reference" "#SUPPLY015" (at 85.09 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 84.074 33.274 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 85.09 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -948,7 +948,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#SUPPLY029") (unit 1)
+          (reference "#SUPPLY015") (unit 1)
         )
       )
     )
@@ -991,11 +991,11 @@
   (symbol (lib_id "mainboard:3.3V") (at 69.85 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d420de1-5c24-43ee-8a3a-5a2103ab5515)
-    (property "Reference" "#SUPPLY028" (at 69.85 111.76 0)
+    (property "Reference" "#SUPPLY017" (at 69.85 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 68.834 108.204 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 69.85 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1007,7 +1007,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#SUPPLY028") (unit 1)
+          (reference "#SUPPLY017") (unit 1)
         )
       )
     )
@@ -1016,11 +1016,11 @@
   (symbol (lib_id "mainboard:GND") (at 69.85 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b734bf1c-fa88-4c75-8ed0-d6475fd0f7a3)
-    (property "Reference" "#GND075" (at 69.85 127 0)
+    (property "Reference" "#GND058" (at 69.85 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 129.54 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 69.85 127 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1032,7 +1032,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec60eb"
-          (reference "#GND075") (unit 1)
+          (reference "#GND058") (unit 1)
         )
       )
     )

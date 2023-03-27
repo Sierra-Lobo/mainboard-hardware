@@ -305,168 +305,6 @@
         )
       )
     )
-    (symbol "mainboard-rescue:IRF7404-Transistor_FET-mainboard-rescue" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "IRF7404-Transistor_FET-mainboard-rescue" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 5.08 -1.905 0)
-        (effects (font (size 1.27 1.27) italic) (justify left) hide)
-      )
-      (property "Datasheet" "" (at 0 0 90)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "IRF7404-Transistor_FET-mainboard-rescue_0_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 3.302 1.778)
-            (xy 3.302 -1.778)
-            (xy 0.762 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 0)
-            (xy 1.27 0.381)
-            (xy 1.27 -0.381)
-            (xy 2.286 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 -0.508)
-            (xy 2.921 -0.381)
-            (xy 3.683 -0.381)
-            (xy 3.81 -0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 -0.381)
-            (xy 2.921 0.254)
-            (xy 3.683 0.254)
-            (xy 3.302 -0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "IRF7404-Transistor_FET-mainboard-rescue_1_1"
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -569,162 +407,281 @@
         )
       )
     )
-    (symbol "mainboard_SLI:IRF7458" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+    (symbol "mainboard_SLI:BSZ025" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 2.54 3.81 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "IRF7458" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "BSZ025N04LS" (at 8.89 1.27 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at -5.08 -1.27 0)
+      (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 0.127 1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (at 0 0 0)
+      (property "Datasheet" "BSZ025N04LS" (at 8.89 1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "IRF7458_0_1"
+      (symbol "BSZ025_0_1"
+        (circle (center -0.889 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
         (polyline
           (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
+            (xy -2.286 0)
+            (xy -5.08 0)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
+            (xy -2.286 1.905)
+            (xy -2.286 -1.905)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
+            (xy -1.778 -1.27)
+            (xy -1.778 -2.286)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
+            (xy -1.778 0.508)
+            (xy -1.778 -0.508)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
+            (xy -1.778 2.286)
+            (xy -1.778 1.27)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
+            (xy 0 2.54)
+            (xy 0 1.778)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
+            (xy 0 -2.54)
+            (xy 0 0)
+            (xy -1.778 0)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
+            (xy -1.778 -1.778)
             (xy 0.762 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
             (xy 0.762 1.778)
+            (xy -1.778 1.778)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy 1.016 0)
-            (xy 2.032 0.381)
-            (xy 2.032 -0.381)
-            (xy 1.016 0)
+            (xy -1.524 0)
+            (xy -0.508 0.381)
+            (xy -0.508 -0.381)
+            (xy -1.524 0)
           )
           (stroke (width 0) (type default))
           (fill (type outline))
         )
         (polyline
           (pts
-            (xy 2.794 0.508)
-            (xy 2.921 0.381)
-            (xy 3.683 0.381)
-            (xy 3.81 0.254)
+            (xy 0.381 0.381)
+            (xy 0.381 0.381)
+            (xy 1.143 0.381)
+            (xy 1.143 0.381)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 2.921 -0.254)
-            (xy 3.683 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
+        (circle (center 0 1.778) (radius 0.254)
           (stroke (width 0) (type default))
           (fill (type outline))
         )
       )
-      (symbol "IRF7458_1_1"
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+      (symbol "BSZ025_1_1"
+        (polyline
+          (pts
+            (xy 0.762 0.381)
+            (xy 0.381 -0.254)
+            (xy 1.143 -0.254)
+            (xy 0.762 0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
           (name "S" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
+        (pin input line (at -7.62 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
+        (pin passive line (at 0 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "mainboard_SLI:BSZ180" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 3.556 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "BSZ180P03NS3GATMA1" (at 13.716 -2.032 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 0.127 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "BSZ180P03NS3GATMA1" (at 8.89 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "BSZ180_0_1"
+        (circle (center -0.889 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
         )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
+        (circle (center 0 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
         )
-        (pin passive line (at 2.54 5.08 270) (length 2.54) hide
+        (polyline
+          (pts
+            (xy -2.286 0)
+            (xy -5.08 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.286 1.905)
+            (xy -2.286 -1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -1.27)
+            (xy -1.778 -2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 0.508)
+            (xy -1.778 -0.508)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -1.778 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 0 0)
+            (xy -1.778 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -1.778)
+            (xy 0.762 -1.778)
+            (xy 0.762 1.778)
+            (xy -1.778 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 0)
+            (xy -1.27 -0.381)
+            (xy -1.27 0.381)
+            (xy -0.254 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.143 -0.254)
+            (xy 1.143 -0.254)
+            (xy 0.381 -0.254)
+            (xy 0.381 -0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "BSZ180_1_1"
+        (polyline
+          (pts
+            (xy 0.762 -0.254)
+            (xy 1.143 0.381)
+            (xy 0.381 0.381)
+            (xy 0.762 -0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 0 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -757,9 +714,6 @@
   (junction (at 196.85 49.53) (diameter 0) (color 0 0 0 0)
     (uuid a34829f2-78fc-48ee-845b-307085c1c12f)
   )
-  (junction (at 102.87 89.535) (diameter 0) (color 0 0 0 0)
-    (uuid a8c9837f-de66-446e-9d82-513ed28a68f1)
-  )
   (junction (at 207.01 34.29) (diameter 0) (color 0 0 0 0)
     (uuid bb0924a5-f073-4fe1-b204-28cc27a390cd)
   )
@@ -772,17 +726,24 @@
   (junction (at 64.77 72.39) (diameter 0) (color 0 0 0 0)
     (uuid f22976e7-b8a4-496d-85b9-0ac92883ed40)
   )
+  (junction (at 102.87 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid f299cf7b-44a0-415f-bae0-84c0ba7fd3a0)
+  )
   (junction (at 97.79 50.8) (diameter 0) (color 0 0 0 0)
     (uuid fdc51af6-ae60-41c6-aaab-fb127d647263)
   )
 
-  (wire (pts (xy 102.87 89.535) (xy 102.87 91.44))
+  (wire (pts (xy 102.87 88.9) (xy 102.87 91.44))
     (stroke (width 0) (type default))
     (uuid 02e27f9b-1b87-4e74-88c5-4fa809793d52)
   )
   (wire (pts (xy 269.24 125.73) (xy 269.24 128.27))
     (stroke (width 0) (type default))
     (uuid 0377595e-d37e-4e09-a952-55d18182435c)
+  )
+  (wire (pts (xy 123.19 71.12) (xy 123.19 83.82))
+    (stroke (width 0) (type default))
+    (uuid 054cce98-5d17-4a51-9b56-1a15e2818744)
   )
   (wire (pts (xy 185.42 114.3) (xy 185.42 113.03))
     (stroke (width 0) (type default))
@@ -795,10 +756,6 @@
   (wire (pts (xy 165.1 137.16) (xy 168.91 137.16))
     (stroke (width 0) (type default))
     (uuid 18906921-e551-427c-b905-3a539bc74d3a)
-  )
-  (wire (pts (xy 123.19 71.12) (xy 123.19 84.455))
-    (stroke (width 0) (type default))
-    (uuid 1b595e55-b4c2-486e-bf3c-15542f85736a)
   )
   (wire (pts (xy 114.3 50.8) (xy 115.57 50.8))
     (stroke (width 0) (type default))
@@ -816,7 +773,7 @@
     (stroke (width 0) (type default))
     (uuid 269117de-1fc2-40f0-bfe3-2df6276063a8)
   )
-  (wire (pts (xy 102.87 89.535) (xy 106.68 89.535))
+  (wire (pts (xy 102.87 88.9) (xy 106.68 88.9))
     (stroke (width 0) (type default))
     (uuid 27019bcb-7b4a-4445-8b65-1cb49330fc39)
   )
@@ -872,11 +829,11 @@
     (stroke (width 0) (type default))
     (uuid 44609976-9c9b-43a0-b2b8-38d08b5e4377)
   )
-  (wire (pts (xy 123.19 94.615) (xy 123.19 102.87))
+  (wire (pts (xy 123.19 93.98) (xy 123.19 102.87))
     (stroke (width 0) (type default))
     (uuid 446d0225-d432-4791-8595-5bb2e78e7904)
   )
-  (wire (pts (xy 64.77 87.63) (xy 64.77 89.535))
+  (wire (pts (xy 64.77 87.63) (xy 64.77 88.9))
     (stroke (width 0) (type default))
     (uuid 45cabff2-d819-498c-8a65-fe8ec6018957)
   )
@@ -1012,7 +969,7 @@
     (stroke (width 0) (type default))
     (uuid 90c01587-de30-46a0-8019-298e4065c36c)
   )
-  (wire (pts (xy 114.3 89.535) (xy 115.57 89.535))
+  (wire (pts (xy 114.3 88.9) (xy 115.57 88.9))
     (stroke (width 0) (type default))
     (uuid 965dd2c0-476f-47ba-929f-8e3536a1b6a4)
   )
@@ -1068,7 +1025,7 @@
     (stroke (width 0) (type default))
     (uuid b610bb64-9b50-4a4d-be9b-29a362c48f30)
   )
-  (wire (pts (xy 102.87 83.82) (xy 102.87 89.535))
+  (wire (pts (xy 102.87 83.82) (xy 102.87 88.9))
     (stroke (width 0) (type default))
     (uuid b89ef89e-3b97-4e9c-a8d6-706a5d972487)
   )
@@ -1108,7 +1065,7 @@
     (stroke (width 0) (type default))
     (uuid d50fc6ce-d8f3-4751-a90b-59dc2a79e1ba)
   )
-  (wire (pts (xy 64.77 89.535) (xy 102.87 89.535))
+  (wire (pts (xy 64.77 88.9) (xy 102.87 88.9))
     (stroke (width 0) (type default))
     (uuid d531d691-ae60-4dc2-a3b5-ddff73bafd6f)
   )
@@ -1444,7 +1401,7 @@
   (symbol (lib_id "Device:R_US") (at 185.42 118.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 079bf4cb-ad4a-4279-a349-398d4f1db2d0)
-    (property "Reference" "R201" (at 183.6928 116.9416 0)
+    (property "Reference" "R171" (at 183.6928 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10Meg" (at 183.6928 119.253 0)
@@ -1461,39 +1418,34 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R201") (unit 1)
+          (reference "R171") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "mainboard-rescue:IRF7404-Transistor_FET-mainboard-rescue") (at 214.63 60.96 0) (mirror x) (unit 1)
+  (symbol (lib_id "mainboard_SLI:BSZ180") (at 217.17 60.96 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09f611ee-a3ad-4a80-a23b-b7051cad1249)
-    (property "Reference" "Q31" (at 219.837 62.1284 0)
+    (property "Reference" "Q28" (at 222.377 62.1284 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRF7404" (at 219.837 59.817 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BSZ180P03NS3GATMA1" (at 230.886 58.928 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 219.71 59.055 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 217.297 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" (at 214.63 60.96 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Datasheet" "BSZ180P03NS3GATMA1" (at 226.06 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 97f3b235-40a8-49fa-9660-db83043c5c63))
-    (pin "2" (uuid 4423971f-b2dd-409a-9a6a-f6e2e0ad0196))
-    (pin "3" (uuid 5cb5aa5e-da99-40b7-9093-f803071a87fd))
     (pin "4" (uuid d3201a4e-68a2-4883-ad73-b3203626d19b))
     (pin "5" (uuid cc60ccf7-a243-4ae8-ba26-049a69747779))
-    (pin "6" (uuid 13058351-d9ba-474f-8e56-3e0b7c8009e7))
-    (pin "7" (uuid 27467a95-43e1-4c53-bfa5-02a56dfddf45))
-    (pin "8" (uuid 29a23348-73ff-4459-88be-a86e6dedc92a))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q31") (unit 1)
+          (reference "Q28") (unit 1)
         )
       )
     )
@@ -1502,7 +1454,7 @@
   (symbol (lib_id "mainboard-rescue:GNDREF-power-mainboard-rescue") (at 163.83 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f11ea57-e585-4e8d-8284-c5064ba162c6)
-    (property "Reference" "#PWR010" (at 163.83 184.15 0)
+    (property "Reference" "#PWR015" (at 163.83 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 163.957 182.1942 0)
@@ -1518,7 +1470,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR012") (unit 1)
@@ -1527,33 +1479,28 @@
     )
   )
 
-  (symbol (lib_id "mainboard-rescue:IRF7404-Transistor_FET-mainboard-rescue") (at 201.93 127 0) (mirror x) (unit 1)
+  (symbol (lib_id "mainboard_SLI:BSZ180") (at 204.47 127 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12b07904-965a-4eb5-a40b-fe7572e02320)
-    (property "Reference" "Q39" (at 207.137 128.1684 0)
+    (property "Reference" "Q34" (at 209.677 128.1684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRF7404" (at 207.137 125.857 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BSZ180P03NS3GATMA1" (at 218.186 124.968 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 207.01 125.095 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 204.597 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" (at 201.93 127 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Datasheet" "BSZ180P03NS3GATMA1" (at 213.36 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a3a45fb3-9dae-48ab-97ef-2055967a74d7))
-    (pin "2" (uuid 7ccb12e1-076f-4402-a157-718081885377))
-    (pin "3" (uuid b62c5268-d493-4012-a3e3-96779a0aabd7))
     (pin "4" (uuid 60b45307-0a82-49d1-9df0-d1497e773f36))
     (pin "5" (uuid fea81e05-9c68-4086-b924-3b1c4212bd14))
-    (pin "6" (uuid 7717131a-6965-4dea-bbbb-180b4a663fca))
-    (pin "7" (uuid 52ef8bd1-bdc3-4085-a7c9-65dc67ff9d18))
-    (pin "8" (uuid 1e72f567-31f9-47d2-81d5-367081ecf440))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q39") (unit 1)
+          (reference "Q34") (unit 1)
         )
       )
     )
@@ -1562,7 +1509,7 @@
   (symbol (lib_id "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue") (at 182.88 137.16 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dda0afe-5573-4e11-9e80-097ad1ae579e)
-    (property "Reference" "Q34" (at 176.53 139.7 0)
+    (property "Reference" "Q36" (at 176.53 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403WT1G" (at 166.1414 142.3416 0)
@@ -1580,7 +1527,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q34") (unit 1)
+          (reference "Q36") (unit 1)
         )
       )
     )
@@ -1589,7 +1536,7 @@
   (symbol (lib_id "Device:R_US") (at 196.85 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f525732-e0e0-4752-9600-2234db628b84)
-    (property "Reference" "R1" (at 198.5772 54.7116 0)
+    (property "Reference" "R162" (at 198.5772 54.7116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10Meg" (at 198.5772 57.023 0)
@@ -1606,7 +1553,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R1") (unit 1)
+          (reference "R162") (unit 1)
         )
       )
     )
@@ -1615,7 +1562,7 @@
   (symbol (lib_id "mainboard-rescue:GNDREF-power-mainboard-rescue") (at 102.87 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23ea6fef-d751-49e1-9500-7770951b2501)
-    (property "Reference" "#PWR013" (at 102.87 106.68 0)
+    (property "Reference" "#PWR011" (at 102.87 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 102.997 104.7242 0)
@@ -1631,7 +1578,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR012") (unit 1)
@@ -1643,7 +1590,7 @@
   (symbol (lib_id "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue") (at 77.47 154.94 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3107737d-bfb0-4faa-91ca-22bffb620f62)
-    (property "Reference" "Q25" (at 71.12 158.115 0)
+    (property "Reference" "Q38" (at 71.12 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403WT1G" (at 63.2714 159.893 0)
@@ -1661,7 +1608,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q25") (unit 1)
+          (reference "Q38") (unit 1)
         )
       )
     )
@@ -1670,11 +1617,11 @@
   (symbol (lib_id "mainboard:GND") (at 25.4 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3134e780-f999-496a-9c2f-02fc1e10b1ea)
-    (property "Reference" "#GND019" (at 25.4 118.11 0)
+    (property "Reference" "#GND0104" (at 25.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 120.65 0)
-      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "" (at 25.4 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1686,7 +1633,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "#GND019") (unit 1)
+          (reference "#GND0104") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
           (reference "#GND018") (unit 1)
@@ -1698,7 +1645,7 @@
   (symbol (lib_id "mainboard-rescue:GNDREF-power-mainboard-rescue") (at 80.01 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41b68b07-5213-4ee9-87b4-e4eec9559dde)
-    (property "Reference" "#PWR011" (at 80.01 180.34 0)
+    (property "Reference" "#PWR014" (at 80.01 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 80.137 178.3842 0)
@@ -1714,7 +1661,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR012") (unit 1)
@@ -1726,7 +1673,7 @@
   (symbol (lib_id "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue") (at 62.23 82.55 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4922ba89-86a4-452e-b5a0-c7e19a4276c4)
-    (property "Reference" "Q33" (at 55.88 85.09 0)
+    (property "Reference" "Q32" (at 55.88 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403WT1G" (at 44.45 87.63 0)
@@ -1744,7 +1691,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q33") (unit 1)
+          (reference "Q32") (unit 1)
         )
       )
     )
@@ -1753,7 +1700,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bea6b55-99b9-4ce8-9342-3fc610c5a657)
-    (property "Reference" "R183" (at 246.38 130.81 90)
+    (property "Reference" "R174" (at 246.38 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 246.38 133.35 90)
@@ -1770,7 +1717,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R183") (unit 1)
+          (reference "R174") (unit 1)
         )
       )
     )
@@ -1779,7 +1726,7 @@
   (symbol (lib_id "Device:R_US") (at 80.01 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4eabd5a0-66ba-4126-a5f8-dc9d0cf52460)
-    (property "Reference" "R187" (at 81.7372 167.7416 0)
+    (property "Reference" "R180" (at 81.7372 167.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10Meg" (at 81.7372 170.053 0)
@@ -1796,7 +1743,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R187") (unit 1)
+          (reference "R180") (unit 1)
         )
       )
     )
@@ -1805,7 +1752,7 @@
   (symbol (lib_id "Device:R_US") (at 95.25 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a9e5dd7-5737-4e12-a0a0-f676ec5db153)
-    (property "Reference" "R190" (at 95.25 157.48 90)
+    (property "Reference" "R179" (at 95.25 157.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 95.25 160.02 90)
@@ -1822,7 +1769,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R190") (unit 1)
+          (reference "R179") (unit 1)
         )
       )
     )
@@ -1831,7 +1778,7 @@
   (symbol (lib_id "Device:R_US") (at 184.15 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b2d5283-aafa-4d70-b3ea-6dfeaa2fc728)
-    (property "Reference" "R188" (at 179.07 68.58 90)
+    (property "Reference" "R166" (at 179.07 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 187.96 68.58 90)
@@ -1848,7 +1795,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R188") (unit 1)
+          (reference "R166") (unit 1)
         )
       )
     )
@@ -1857,7 +1804,7 @@
   (symbol (lib_id "Device:R_US") (at 52.07 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 629c1cd0-b49f-40d0-a31c-9843dc683f42)
-    (property "Reference" "R196" (at 52.07 77.47 90)
+    (property "Reference" "R168" (at 52.07 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 52.07 80.01 90)
@@ -1874,7 +1821,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R196") (unit 1)
+          (reference "R168") (unit 1)
         )
       )
     )
@@ -1883,7 +1830,7 @@
   (symbol (lib_id "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue") (at 194.31 69.85 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c08fc79-5770-4f7c-9626-92a3d5a0192d)
-    (property "Reference" "Q28" (at 189.23 73.66 0)
+    (property "Reference" "Q30" (at 189.23 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403WT1G" (at 180.34 76.2 0)
@@ -1901,71 +1848,61 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q28") (unit 1)
+          (reference "Q30") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "mainboard-rescue:IRF7404-Transistor_FET-mainboard-rescue") (at 120.65 66.04 0) (mirror x) (unit 1)
+  (symbol (lib_id "mainboard_SLI:BSZ180") (at 123.19 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72a7d154-fb9f-4413-8f70-1728ffc4ac04)
-    (property "Reference" "Q37" (at 125.857 67.2084 0)
+    (property "Reference" "Q29" (at 128.397 67.2084 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRF7404" (at 125.857 64.897 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BSZ180P03NS3GATMA1" (at 136.906 64.008 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 125.73 64.135 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 123.317 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" (at 120.65 66.04 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Datasheet" "BSZ180P03NS3GATMA1" (at 132.08 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 802312d7-32d4-4a74-9612-dae9dd405a67))
-    (pin "2" (uuid 9e9d6928-6588-4881-b2b9-17e915fc560a))
-    (pin "3" (uuid f9f7c59a-94b8-403c-9247-2b714d900212))
     (pin "4" (uuid 4bed9a58-c12f-47bb-89c4-13421b772265))
     (pin "5" (uuid d04f6b5d-3be7-443e-a7af-151187a1cf21))
-    (pin "6" (uuid 6ccb16a6-2f6e-4317-82a8-7a57183f60e5))
-    (pin "7" (uuid 339d0864-a98d-43b8-968d-64ca3a72ce57))
-    (pin "8" (uuid a86f4fac-0341-4c63-b1d1-63789f795c42))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q37") (unit 1)
+          (reference "Q29") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "mainboard-rescue:IRF7404-Transistor_FET-mainboard-rescue") (at 120.65 50.8 0) (mirror x) (unit 1)
+  (symbol (lib_id "mainboard_SLI:BSZ180") (at 123.19 50.8 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a65ce41-2b29-41c7-810a-6b1401e69eb7)
-    (property "Reference" "Q36" (at 125.857 51.9684 0)
+    (property "Reference" "Q27" (at 128.397 51.9684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRF7404" (at 125.857 49.657 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BSZ180P03NS3GATMA1" (at 136.906 48.768 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 125.73 48.895 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 123.317 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" (at 120.65 50.8 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Datasheet" "BSZ180P03NS3GATMA1" (at 132.08 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 658e7e1f-9ee9-40c4-b2f8-791f630c9233))
-    (pin "2" (uuid 373a45f6-5852-4278-95fe-00b090937e14))
-    (pin "3" (uuid 79808ebd-287a-4271-aa68-840f57672b10))
     (pin "4" (uuid 326cae2e-4669-421f-af8f-2e405927111a))
     (pin "5" (uuid cb8c2b97-24ae-4592-8265-273f3f0afcb4))
-    (pin "6" (uuid fa4a615f-fe46-440a-8ea9-41cb04d45de3))
-    (pin "7" (uuid 17fce5fe-0daf-41ce-b499-2e2a311d7104))
-    (pin "8" (uuid 92cd597b-1379-475e-8cbc-e031dbfb6659))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q36") (unit 1)
+          (reference "Q27") (unit 1)
         )
       )
     )
@@ -1974,7 +1911,7 @@
   (symbol (lib_id "Device:Q_NPN_BEC") (at 186.69 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b61cd88-a65e-4847-87cf-c6db9787f951)
-    (property "Reference" "Q27" (at 179.07 46.355 0)
+    (property "Reference" "Q25" (at 179.07 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT2222AWT3G" (at 168.91 48.895 0)
@@ -1992,7 +1929,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q27") (unit 1)
+          (reference "Q25") (unit 1)
         )
       )
     )
@@ -2001,7 +1938,7 @@
   (symbol (lib_id "Device:R_US") (at 205.74 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94b578e4-595c-40cd-8f45-106f45e64f72)
-    (property "Reference" "R192" (at 205.74 63.5 90)
+    (property "Reference" "R163" (at 205.74 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 205.74 65.405 90)
@@ -2018,7 +1955,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R192") (unit 1)
+          (reference "R163") (unit 1)
         )
       )
     )
@@ -2027,7 +1964,7 @@
   (symbol (lib_id "Device:R_US") (at 193.04 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 962e7545-cdbd-401b-88bc-36a4e1f535d7)
-    (property "Reference" "R205" (at 193.04 121.92 90)
+    (property "Reference" "R173" (at 193.04 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 193.04 124.46 90)
@@ -2044,7 +1981,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R205") (unit 1)
+          (reference "R173") (unit 1)
         )
       )
     )
@@ -2053,7 +1990,7 @@
   (symbol (lib_id "Device:R_US") (at 66.04 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cc22ee6-dc03-4525-a61a-4f9c7415b151)
-    (property "Reference" "R184" (at 66.04 149.733 90)
+    (property "Reference" "R178" (at 66.04 149.733 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 66.04 152.0444 90)
@@ -2070,7 +2007,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R184") (unit 1)
+          (reference "R178") (unit 1)
         )
       )
     )
@@ -2079,7 +2016,7 @@
   (symbol (lib_id "Device:Q_NPN_BEC") (at 199.39 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1caa140-59d8-4fde-89e9-306ecda6f2ec)
-    (property "Reference" "Q29" (at 207.01 46.355 0)
+    (property "Reference" "Q26" (at 207.01 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT2222AWT3G" (at 215.9 48.26 0)
@@ -2097,7 +2034,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q29") (unit 1)
+          (reference "Q26") (unit 1)
         )
       )
     )
@@ -2106,7 +2043,7 @@
   (symbol (lib_id "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue") (at 100.33 78.74 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b296e660-eecc-41ed-845f-cef4c317c8a0)
-    (property "Reference" "Q32" (at 93.98 81.28 0)
+    (property "Reference" "Q31" (at 93.98 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403WT1G" (at 83.82 83.82 0)
@@ -2124,39 +2061,34 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q32") (unit 1)
+          (reference "Q31") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "mainboard_SLI:IRF7458") (at 105.41 163.83 0) (unit 1)
+  (symbol (lib_id "mainboard_SLI:BSZ025") (at 107.95 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2d7fccb-4a2d-40c8-b3db-544d27ff9d3a)
-    (property "Reference" "Q30" (at 111.76 162.56 0)
+    (property "Reference" "Q39" (at 111.76 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRF7458" (at 111.76 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BSZ025N04LSATMA1" (at 121.92 165.1 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 100.33 165.1 0)
+    (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 108.077 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 105.41 163.83 0)
+    (property "Datasheet" "BSZ025N04LSATMA1" (at 116.84 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e89a183d-f076-4fb6-98b1-6c9b2126c586))
-    (pin "2" (uuid b121baf1-c615-47d0-a2fb-a1c838d4ca09))
-    (pin "3" (uuid facfcd83-d2de-473e-b8f8-05f93fc2abd2))
     (pin "4" (uuid 2a292edb-3b44-4ef5-862a-bd47992444a6))
     (pin "5" (uuid 48da99ab-4379-4512-8327-2e5204eb146e))
-    (pin "6" (uuid c9204a68-0a15-4ee6-88d5-b070bd8daa01))
-    (pin "7" (uuid 4dea9b20-9d7d-4d64-99c2-2a4ae7d90c79))
-    (pin "8" (uuid 6167f0d8-6e28-4c43-a5fd-c0eaede342b9))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q30") (unit 1)
+          (reference "Q39") (unit 1)
         )
       )
     )
@@ -2165,7 +2097,7 @@
   (symbol (lib_id "Device:R_US") (at 90.17 78.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b590efc1-2e94-4f1b-be41-901967a28575)
-    (property "Reference" "R194" (at 90.17 73.66 90)
+    (property "Reference" "R167" (at 90.17 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 90.17 76.2 90)
@@ -2182,7 +2114,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R194") (unit 1)
+          (reference "R167") (unit 1)
         )
       )
     )
@@ -2191,7 +2123,7 @@
   (symbol (lib_id "Device:Q_NPN_BEC") (at 182.88 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b65f331b-86b2-4659-99ea-4af461ae583d)
-    (property "Reference" "Q35" (at 176.7586 153.5684 0)
+    (property "Reference" "Q37" (at 176.7586 153.5684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT2222AWT3G" (at 166.37 156.21 0)
@@ -2209,7 +2141,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q35") (unit 1)
+          (reference "Q37") (unit 1)
         )
       )
     )
@@ -2218,7 +2150,7 @@
   (symbol (lib_id "Device:R_US") (at 172.72 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7375a93-8263-478a-96c4-5fa123525c1f)
-    (property "Reference" "R198" (at 167.64 149.86 90)
+    (property "Reference" "R177" (at 167.64 149.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 177.8 149.86 90)
@@ -2235,7 +2167,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R198") (unit 1)
+          (reference "R177") (unit 1)
         )
       )
     )
@@ -2244,7 +2176,7 @@
   (symbol (lib_id "mainboard-rescue:GNDREF-power-mainboard-rescue") (at 185.42 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba11fe19-708d-45b2-be67-3cb231ffd3a3)
-    (property "Reference" "#PWR014" (at 185.42 167.64 0)
+    (property "Reference" "#PWR013" (at 185.42 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 185.547 165.6842 0)
@@ -2260,7 +2192,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR012") (unit 1)
@@ -2272,7 +2204,7 @@
   (symbol (lib_id "Device:R_US") (at 172.72 137.16 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c48764cc-c443-4080-87d8-d4465b5c6e03)
-    (property "Reference" "R197" (at 167.64 135.89 90)
+    (property "Reference" "R176" (at 167.64 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 177.8 135.89 90)
@@ -2289,7 +2221,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R197") (unit 1)
+          (reference "R176") (unit 1)
         )
       )
     )
@@ -2298,7 +2230,7 @@
   (symbol (lib_id "Switch:SW_DIP_x02") (at 259.08 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cab3ce8a-4c60-43aa-acd3-be4406d39247)
-    (property "Reference" "SW7" (at 259.08 118.11 0)
+    (property "Reference" "SW3" (at 259.08 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1571983-1" (at 259.08 120.65 0)
@@ -2317,7 +2249,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "SW7") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -2326,7 +2258,7 @@
   (symbol (lib_id "Device:R_US") (at 97.79 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc3570ba-98b9-45e0-ad34-fcd5fb5282c1)
-    (property "Reference" "R199" (at 99.5172 45.8216 0)
+    (property "Reference" "R160" (at 99.5172 45.8216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10Meg" (at 99.5172 48.133 0)
@@ -2343,7 +2275,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R199") (unit 1)
+          (reference "R160") (unit 1)
         )
       )
     )
@@ -2352,7 +2284,7 @@
   (symbol (lib_id "Device:R_US") (at 179.07 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdd022dc-2d96-4df4-ad67-6a37402db4a5)
-    (property "Reference" "R186" (at 177.3428 38.2016 0)
+    (property "Reference" "R158" (at 177.3428 38.2016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1Meg" (at 177.3428 40.513 0)
@@ -2369,7 +2301,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R186") (unit 1)
+          (reference "R158") (unit 1)
         )
       )
     )
@@ -2378,7 +2310,7 @@
   (symbol (lib_id "Device:R_US") (at 72.39 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0663766-1d31-4dd4-bd2d-6902c98b05c1)
-    (property "Reference" "R185" (at 72.39 127 90)
+    (property "Reference" "R175" (at 72.39 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1Meg" (at 72.39 129.54 90)
@@ -2395,7 +2327,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R185") (unit 1)
+          (reference "R175") (unit 1)
         )
       )
     )
@@ -2404,7 +2336,7 @@
   (symbol (lib_id "Device:R_US") (at 207.01 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5443145-550a-4e9b-8d8a-01efce9936d3)
-    (property "Reference" "R193" (at 208.7372 38.2016 0)
+    (property "Reference" "R159" (at 208.7372 38.2016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1Meg" (at 208.7372 40.513 0)
@@ -2421,25 +2353,25 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R193") (unit 1)
+          (reference "R159") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 110.49 89.535 90) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 110.49 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d99628ce-7bf5-4a7f-843a-2a58b4f1d77a)
-    (property "Reference" "R204" (at 110.49 83.185 90)
+    (property "Reference" "R169" (at 110.49 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 110.49 85.725 90)
+    (property "Value" "1k" (at 110.49 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.744 88.519 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.744 87.884 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 110.49 89.535 0)
+    (property "Datasheet" "~" (at 110.49 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6b06efc4-eaf3-41fe-a084-a2543960aec1))
@@ -2447,7 +2379,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R204") (unit 1)
+          (reference "R169") (unit 1)
         )
       )
     )
@@ -2456,7 +2388,7 @@
   (symbol (lib_id "Device:R_US") (at 102.87 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1526683-e68f-4d4b-964b-16d65e3da84d)
-    (property "Reference" "R195" (at 104.5972 94.0816 0)
+    (property "Reference" "R170" (at 104.5972 94.0816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10Meg" (at 104.5972 96.393 0)
@@ -2473,7 +2405,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R195") (unit 1)
+          (reference "R170") (unit 1)
         )
       )
     )
@@ -2482,7 +2414,7 @@
   (symbol (lib_id "Device:R_US") (at 110.49 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e33f8415-6b86-4cd5-a5ad-26952a654b9a)
-    (property "Reference" "R203" (at 110.49 60.96 90)
+    (property "Reference" "R165" (at 110.49 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 110.49 63.5 90)
@@ -2499,7 +2431,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R203") (unit 1)
+          (reference "R165") (unit 1)
         )
       )
     )
@@ -2508,7 +2440,7 @@
   (symbol (lib_id "Device:R_US") (at 97.79 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9b43aa0-1085-4b2f-a0db-025974c8c7ac)
-    (property "Reference" "R200" (at 99.5172 61.0616 0)
+    (property "Reference" "R164" (at 99.5172 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10Meg" (at 99.5172 63.373 0)
@@ -2525,7 +2457,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R200") (unit 1)
+          (reference "R164") (unit 1)
         )
       )
     )
@@ -2534,7 +2466,7 @@
   (symbol (lib_id "mainboard-rescue:Q_PNP_BEC-Device-mainboard-rescue") (at 83.82 132.08 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebba6261-c5d5-40e1-a1d1-673d2e159790)
-    (property "Reference" "Q26" (at 76.2 133.35 0)
+    (property "Reference" "Q35" (at 76.2 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT4403WT1G" (at 67.31 135.89 0)
@@ -2552,7 +2484,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q26") (unit 1)
+          (reference "Q35") (unit 1)
         )
       )
     )
@@ -2561,7 +2493,7 @@
   (symbol (lib_id "mainboard-rescue:GNDREF-power-mainboard-rescue") (at 269.24 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4d02719-1e41-4e6a-869f-d861776cad44)
-    (property "Reference" "#PWR015" (at 269.24 138.43 0)
+    (property "Reference" "#PWR012" (at 269.24 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 269.367 136.4742 0)
@@ -2577,7 +2509,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
           (reference "#PWR012") (unit 1)
@@ -2589,7 +2521,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f51cb20d-bf95-469b-aece-846d2c600413)
-    (property "Reference" "R182" (at 246.38 120.65 90)
+    (property "Reference" "R172" (at 246.38 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 246.38 123.19 90)
@@ -2606,7 +2538,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R182") (unit 1)
+          (reference "R172") (unit 1)
         )
       )
     )
@@ -2615,7 +2547,7 @@
   (symbol (lib_id "Device:R_US") (at 110.49 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb7e31f3-25ed-43c6-ad96-e84eb0b72565)
-    (property "Reference" "R202" (at 110.49 45.72 90)
+    (property "Reference" "R161" (at 110.49 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 110.49 48.26 90)
@@ -2632,39 +2564,34 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "R202") (unit 1)
+          (reference "R161") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "mainboard-rescue:IRF7404-Transistor_FET-mainboard-rescue") (at 120.65 89.535 0) (mirror x) (unit 1)
+  (symbol (lib_id "mainboard_SLI:BSZ180") (at 123.19 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd8a7c40-9cf6-4cae-ae25-074d28458e25)
-    (property "Reference" "Q38" (at 125.857 90.7034 0)
+    (property "Reference" "Q33" (at 128.397 90.0684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRF7404" (at 125.857 88.392 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "BSZ180P03NS3GATMA1" (at 136.906 86.868 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 125.73 87.63 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    (property "Footprint" "mainboard-SLI:PG-TSDSON-8_3.3x3.3mm" (at 123.317 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" (at 120.65 89.535 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Datasheet" "BSZ180P03NS3GATMA1" (at 132.08 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1016e3ba-d37b-4bd1-bd2e-bee647af21d6))
-    (pin "2" (uuid 11689279-8925-446b-8963-340cbeeb68d4))
-    (pin "3" (uuid 295e8e21-f2c6-40d4-9d59-e3fa36caef3d))
     (pin "4" (uuid cb90c1cf-bf0c-4da4-9304-2cdbd1bf6296))
     (pin "5" (uuid 3f9f4668-2c5a-4bc3-9650-886646a6bee0))
-    (pin "6" (uuid 5570acc5-8573-4b0a-85a9-e5bb406ba4d5))
-    (pin "7" (uuid 99e65c28-0aa5-4711-837b-b0a53b560236))
-    (pin "8" (uuid 5be97fc5-a4cb-4563-b0b5-0ee9ca46e2b6))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
-          (reference "Q38") (unit 1)
+          (reference "Q33") (unit 1)
         )
       )
     )
