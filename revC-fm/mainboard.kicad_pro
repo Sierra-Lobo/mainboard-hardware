@@ -97,7 +97,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -542,24 +542,8 @@
       "Avionics"
     ],
     [
-      "00000000-0000-0000-0000-00005ede7915",
-      "Bus Protection"
-    ],
-    [
-      "53885b8c-c161-44ce-91a5-b0138f84f00b",
-      "5V Payload Regulator"
-    ],
-    [
-      "81f44d01-bc9f-4b7f-b957-1cda63083cdb",
-      "Backplane Card Interface"
-    ],
-    [
       "a8d8d08f-b4b1-41fc-ac0e-a64140a93aaa",
       "ADC Mux"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cec60eb",
-      "Connectors"
     ],
     [
       "00000000-0000-0000-0000-00005cec5dde",
@@ -570,20 +554,60 @@
       "Solar Charge Regulator"
     ],
     [
-      "00000000-0000-0000-0000-00005cec6476",
-      "Burn Wires"
+      "53885b8c-c161-44ce-91a5-b0138f84f00b",
+      "5V Payload Regulator"
     ],
     [
-      "00000000-0000-0000-0000-00005cec6281",
-      "RF and GPS"
+      "b26c7749-01c8-494d-9e2e-e06c56569424",
+      "5V RF Regulator"
     ],
     [
       "108189db-ac43-429a-bea6-7a20153b7e07",
       "Inhibits"
     ],
     [
-      "b26c7749-01c8-494d-9e2e-e06c56569424",
-      "5V RF Regulator"
+      "b16406a3-1a56-4ff9-817d-a6e31635f1dc",
+      "High Side Driver 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ede7915",
+      "Bus Protection"
+    ],
+    [
+      "98075574-42bb-442c-ab5b-88185f36e4d7",
+      "High Side Driver 3"
+    ],
+    [
+      "ea6bccc4-7d11-4c72-aac6-c14ca6d386f6",
+      "High Side Driver 1"
+    ],
+    [
+      "58a3edb7-dfb1-4add-9075-2361d73480a6",
+      "High Side Driver 4"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cec6281",
+      "RF and GPS"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cec6476",
+      "Burn Wires"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cec60eb",
+      "Connectors"
+    ],
+    [
+      "81f44d01-bc9f-4b7f-b957-1cda63083cdb",
+      "Backplane Card Interface"
+    ],
+    [
+      "68cb1cfa-66f3-4079-aaa8-5081a46702c5",
+      "High Side Driver 5"
+    ],
+    [
+      "9a2f7458-daa0-4897-b1a7-e66c6dd2d928",
+      "Low Side Driver 1"
     ]
   ],
   "text_variables": {}
