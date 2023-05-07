@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name mainboard)(type KiCad)(uri "$(KIPRJMOD)/lib-footprints/mainboard.pretty")(options "")(descr ""))
-  (lib (name SLI-Blank-Card)(type KiCad)(uri ${KIPRJMOD}/lib-footprints/SLI-Blank-Card.pretty)(options "")(descr ""))
-  (lib (name mainboard-SLI)(type KiCad)(uri ${KIPRJMOD}/lib-footprints/mainboard-SLI.pretty)(options "")(descr ""))
+  (version 7)
 )
