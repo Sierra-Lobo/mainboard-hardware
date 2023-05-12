@@ -929,7 +929,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00001c775628)
-    (property "Reference" "R198" (at 159.766 85.852 90)
+    (property "Reference" "R189" (at 159.766 85.852 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "100k" (at 159.766 86.36 90)
@@ -946,7 +946,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R198") (unit 1)
+          (reference "R189") (unit 1)
         )
       )
     )
@@ -955,7 +955,7 @@
   (symbol (lib_id "Device:R_US") (at 45.72 47.625 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000352d39f6)
-    (property "Reference" "R196" (at 41.91 43.18 90)
+    (property "Reference" "R185" (at 41.91 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 41.91 44.9834 90)
@@ -972,7 +972,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R196") (unit 1)
+          (reference "R185") (unit 1)
         )
       )
     )
@@ -981,7 +981,7 @@
   (symbol (lib_id "Device:R_US") (at 185.42 73.025 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000593af3fc)
-    (property "Reference" "R201" (at 194.945 69.85 90)
+    (property "Reference" "R188" (at 194.945 69.85 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "1k" (at 194.31 74.93 90)
@@ -998,7 +998,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R201") (unit 1)
+          (reference "R188") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "SierraLobo:BSZ086") (at 190.5 30.48 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005cf3e857)
-    (property "Reference" "Q49" (at 187.96 22.86 90)
+    (property "Reference" "Q47" (at 187.96 22.86 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "BSZ180P03NS3GATMA1" (at 198.12 26.67 90)
@@ -1025,7 +1025,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "Q49") (unit 1)
+          (reference "Q47") (unit 1)
         )
       )
     )
@@ -1061,7 +1061,7 @@
   (symbol (lib_id "Device:Q_NPN_BEC") (at 55.88 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f3a7f53)
-    (property "Reference" "Q47" (at 62.23 46.355 0)
+    (property "Reference" "Q48" (at 62.23 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT2222LT1G" (at 62.23 48.895 0)
@@ -1079,7 +1079,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "Q47") (unit 1)
+          (reference "Q48") (unit 1)
         )
       )
     )
@@ -1088,7 +1088,7 @@
   (symbol (lib_id "Device:R_US") (at 186.055 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000710310b2)
-    (property "Reference" "R202" (at 194.945 42.037 90)
+    (property "Reference" "R184" (at 194.945 42.037 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "1k" (at 194.31 41.91 90)
@@ -1105,7 +1105,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R202") (unit 1)
+          (reference "R184") (unit 1)
         )
       )
     )
@@ -1114,7 +1114,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00007e6356e8)
-    (property "Reference" "R197" (at 159.385 52.07 90)
+    (property "Reference" "R186" (at 159.385 52.07 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "100k" (at 159.004 52.578 90)
@@ -1131,7 +1131,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R197") (unit 1)
+          (reference "R186") (unit 1)
         )
       )
     )
@@ -1140,7 +1140,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000094142453)
-    (property "Reference" "R199" (at 175.26 32.385 0)
+    (property "Reference" "R183" (at 175.26 32.385 0)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "100k" (at 175.26 37.846 0)
@@ -1157,7 +1157,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R199") (unit 1)
+          (reference "R183") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000abc3816a)
-    (property "Reference" "R200" (at 175.26 63.5 0)
+    (property "Reference" "R187" (at 175.26 63.5 0)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "100k" (at 175.26 69.596 0)
@@ -1183,7 +1183,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "R200") (unit 1)
+          (reference "R187") (unit 1)
         )
       )
     )
@@ -1192,7 +1192,7 @@
   (symbol (lib_id "power:GND") (at 104.14 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000d027d65f)
-    (property "Reference" "#PWR0144" (at 104.14 44.45 0)
+    (property "Reference" "#PWR0138" (at 104.14 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 41.91 0)
@@ -1208,7 +1208,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -1246,7 +1246,7 @@
   (symbol (lib_id "power:GND") (at 170.18 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000f8638a93)
-    (property "Reference" "#PWR0145" (at 170.18 59.69 0)
+    (property "Reference" "#PWR0139" (at 170.18 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 57.15 0)
@@ -1262,7 +1262,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -1271,7 +1271,7 @@
   (symbol (lib_id "power:GND") (at 58.42 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000ff2a2d77)
-    (property "Reference" "#PWR0143" (at 58.42 62.23 0)
+    (property "Reference" "#PWR0140" (at 58.42 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 59.69 0)
@@ -1287,7 +1287,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -1296,7 +1296,7 @@
   (symbol (lib_id "power:GND") (at 170.18 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1843fd50-3258-4aae-894d-a3a9e3d2b87f)
-    (property "Reference" "#PWR0146" (at 170.18 92.71 0)
+    (property "Reference" "#PWR0141" (at 170.18 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 90.17 0)
@@ -1312,7 +1312,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -1345,7 +1345,7 @@
           (reference "Q29") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "Q48") (unit 2)
+          (reference "Q49") (unit 2)
         )
       )
     )
@@ -1378,7 +1378,7 @@
           (reference "Q29") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
-          (reference "Q48") (unit 1)
+          (reference "Q49") (unit 1)
         )
       )
     )

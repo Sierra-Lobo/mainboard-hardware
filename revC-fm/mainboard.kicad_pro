@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15239999999999998
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -54,6 +54,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.3302
         }
       ],
       "drc_exclusions": [],
@@ -117,11 +122,11 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.2032,
-        "min_connection": 0.2032,
+        "min_clearance": 0.15239999999999998,
+        "min_connection": 0.15239999999999998,
         "min_copper_edge_clearance": 0.508,
         "min_hole_clearance": 0.2032,
-        "min_hole_to_hole": 0.254,
+        "min_hole_to_hole": 0.30479999999999996,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
@@ -129,9 +134,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.2032,
-        "min_via_annular_width": 0.127,
-        "min_via_diameter": 0.254,
+        "min_track_width": 0.15239999999999998,
+        "min_via_annular_width": 0.15239999999999998,
+        "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -177,9 +182,14 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
+        0.0,
+        0.1016,
+        0.1524,
         0.2032,
         0.254,
         0.29337,
+        0.3302,
         0.508,
         1.27
       ],
@@ -189,12 +199,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.508,
-          "drill": 0.254
+          "diameter": 0.4572,
+          "drill": 0.1524
         },
         {
-          "diameter": 0.5842,
-          "drill": 0.381
+          "diameter": 0.6096,
+          "drill": 0.3048
         }
       ],
       "zones_allow_external_fillets": false,
@@ -430,7 +440,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
@@ -441,13 +451,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
-        "via_diameter": 0.5842,
-        "via_drill": 0.381,
+        "via_diameter": 0.4572,
+        "via_drill": 0.1524,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
@@ -457,9 +467,26 @@
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.29337,
-        "via_diameter": 0.5842,
-        "via_drill": 0.381,
+        "track_width": 0.3302,
+        "via_diameter": 0.6096,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.6096,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -471,20 +498,51 @@
       "/Power/3.3Vout": "Power",
       "/Power/VBUS_PREINHIB": "Power",
       "/Power/VCHRG": "Power",
-      "Net-(U12-SW1)": "Power",
-      "Net-(U13-PMID_1)": "Power",
-      "Net-(U13-SW_1)": "Power",
-      "Net-(U17-L1)": "Power",
-      "Net-(U17-L2)": "Power",
-      "Net-(U18-L1)": "Power",
-      "Net-(U18-L2)": "Power",
-      "Net-(U44-L1)": "Power",
-      "Net-(U44-L2)": "Power",
+      "Net-(U15-PMID_1)": "Power",
+      "Net-(U15-SW_1)": "Power",
+      "Net-(U16-SW1)": "Power",
+      "Net-(U19-L1)": "Power",
+      "Net-(U19-L2)": "Power",
+      "Net-(U26-L1)": "Power",
+      "Net-(U26-L2)": "Power",
       "VBUS": "Power",
       "VBUS_USB": "Power",
       "VCHRG_USB": "Power"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "G*"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": "*RF_IN*"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": "*_ANT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "SOLAR_HI"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "SOLAR_M"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*5V_OP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -567,10 +625,6 @@
       "5V Payload Regulator"
     ],
     [
-      "b26c7749-01c8-494d-9e2e-e06c56569424",
-      "5V RF Regulator"
-    ],
-    [
       "108189db-ac43-429a-bea6-7a20153b7e07",
       "Inhibits"
     ],
@@ -645,6 +699,14 @@
     [
       "481c2648-1c11-4304-b4e8-bc2bdf9046ec",
       "TLE Conditioning 1"
+    ],
+    [
+      "85bb4555-d695-4644-80ca-b3678055f7ba",
+      "OCP"
+    ],
+    [
+      "85bb4555-d695-4644-80ca-b3678055f7ba",
+      "OCP"
     ]
   ],
   "text_variables": {}

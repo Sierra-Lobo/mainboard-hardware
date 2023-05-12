@@ -532,7 +532,7 @@
           (reference "R183") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/9a2f7458-daa0-4897-b1a7-e66c6dd2d928"
-          (reference "R219") (unit 1)
+          (reference "R213") (unit 1)
         )
       )
     )
@@ -621,7 +621,7 @@
           (reference "R183") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/9a2f7458-daa0-4897-b1a7-e66c6dd2d928"
-          (reference "R220") (unit 1)
+          (reference "R214") (unit 1)
         )
       )
     )
@@ -630,7 +630,7 @@
   (symbol (lib_id "Device:Q_PNP_BEC") (at 120.65 105.41 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a05806d4-2557-433e-86ed-90efdd830b8d)
-    (property "Reference" "Q56" (at 125.73 104.775 0)
+    (property "Reference" "Q58" (at 125.73 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT2907AM3T5G" (at 102.87 110.49 0)
@@ -648,7 +648,7 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/9a2f7458-daa0-4897-b1a7-e66c6dd2d928"
-          (reference "Q56") (unit 1)
+          (reference "Q58") (unit 1)
         )
       )
     )
@@ -692,7 +692,7 @@
           (reference "R209") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/9a2f7458-daa0-4897-b1a7-e66c6dd2d928"
-          (reference "R221") (unit 1)
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -765,9 +765,6 @@
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b"
           (reference "C36") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/b26c7749-01c8-494d-9e2e-e06c56569424"
-          (reference "C87") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
           (reference "C?") (unit 1)
         )
@@ -787,7 +784,7 @@
           (reference "C96") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/9a2f7458-daa0-4897-b1a7-e66c6dd2d928"
-          (reference "C110") (unit 1)
+          (reference "C124") (unit 1)
         )
       )
     )
