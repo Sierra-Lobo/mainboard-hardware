@@ -553,7 +553,7 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "S1216V8_1_0"
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 10.16 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -573,19 +573,19 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 8.89 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 7.62 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 6.35 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 3.81 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
         )
@@ -597,7 +597,7 @@
           (name "SCL/NC" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 2.54 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -621,23 +621,23 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "24" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -10.16 180) (length 5.08)
+        (pin bidirectional line (at 17.78 0 180) (length 5.08)
           (name "1PPS" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 11.43 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 12.7 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 13.97 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin no_connect line (at -12.7 5.08 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -645,7 +645,7 @@
           (name "RSTN" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 17.78 -15.24 180) (length 5.08) hide
+        (pin bidirectional line (at -12.7 15.24 0) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
@@ -838,7 +838,7 @@
   (no_connect (at 67.31 148.59) (uuid 7d15c020-969a-4f43-8798-22695ec904cf))
   (no_connect (at 95.25 90.17) (uuid 80b5b54b-a1cc-434c-8739-1e133d53601d))
   (no_connect (at 99.06 62.23) (uuid 8a3381a5-19d1-47f5-85b0-cf20b0f3bb61))
-  (no_connect (at 254 125.73) (uuid 91637a62-ec43-463a-9edc-420af478d9cb))
+  (no_connect (at 254 115.57) (uuid 91637a62-ec43-463a-9edc-420af478d9cb))
   (no_connect (at 93.98 176.53) (uuid 97241336-b0ca-4217-a873-3a2aa4a14eed))
   (no_connect (at 99.06 57.15) (uuid a06bd114-6488-4d22-b31a-c3a8f70a2574))
   (no_connect (at 93.98 166.37) (uuid b9fd346c-5389-496c-860a-ed64fee32558))
@@ -853,7 +853,7 @@
     (stroke (width 0) (type default))
     (uuid 00c562a4-1825-4c6c-8898-b36c6433f7ff)
   )
-  (wire (pts (xy 209.55 120.65) (xy 208.28 120.65))
+  (wire (pts (xy 209.55 120.65) (xy 204.47 120.65))
     (stroke (width 0) (type default))
     (uuid 01a00c23-48e8-4f7b-b55e-8579c285db38)
   )
@@ -917,7 +917,7 @@
     (stroke (width 0) (type default))
     (uuid 2a824ab4-1df0-410b-ba31-1b3b0212fe3d)
   )
-  (wire (pts (xy 218.44 128.27) (xy 215.9 128.27))
+  (wire (pts (xy 218.44 128.27) (xy 204.47 128.27))
     (stroke (width 0) (type default))
     (uuid 2dba072b-3aba-4c6e-8dad-0c854cc5ab37)
   )
@@ -1148,7 +1148,7 @@
     (uuid b400c80e-5312-495d-b0d5-8365ed4de032)
   )
 
-  (wire (pts (xy 209.55 123.19) (xy 208.28 123.19))
+  (wire (pts (xy 209.55 123.19) (xy 204.47 123.19))
     (stroke (width 0) (type default))
     (uuid b4e5d23b-0e8c-4510-bd3b-7a42aca9f19c)
   )
@@ -1427,7 +1427,7 @@
     (effects (font (size 1.016 1.016)) (justify left bottom))
     (uuid c5843e0b-7a1a-4557-8949-09c77bc17261)
   )
-  (label "GPS_PWR" (at 215.9 128.27 180) (fields_autoplaced)
+  (label "GPS_PWR" (at 204.47 128.27 180) (fields_autoplaced)
     (effects (font (size 1.016 1.016)) (justify right bottom))
     (uuid cb5297e1-6fbd-4a9e-8369-21c3e43c83bb)
   )
@@ -1552,10 +1552,10 @@
       (effects (font (size 1.016 1.016)) (justify right) hide)
     )
   )
-  (global_label "TX_MCU" (shape input) (at 208.28 123.19 180) (fields_autoplaced)
+  (global_label "TX_MCU" (shape input) (at 204.47 123.19 180) (fields_autoplaced)
     (effects (font (size 1.016 1.016)) (justify right))
     (uuid a6187c22-3622-4a1a-a49a-b21e96986f96)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 200.7214 123.19 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 196.9114 123.19 0)
       (effects (font (size 1.016 1.016)) (justify right) hide)
     )
   )
@@ -1601,10 +1601,10 @@
       (effects (font (size 1.016 1.016)) hide)
     )
   )
-  (global_label "RX_MCU" (shape output) (at 208.28 120.65 180) (fields_autoplaced)
+  (global_label "RX_MCU" (shape output) (at 204.47 120.65 180) (fields_autoplaced)
     (effects (font (size 1.016 1.016)) (justify right))
     (uuid d5eb7c6e-b098-49b0-b366-c8b7c67afed0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 200.4795 120.65 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 196.6695 120.65 0)
       (effects (font (size 1.016 1.016)) (justify right) hide)
     )
   )
@@ -2201,12 +2201,12 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 213.36 120.65 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e296f6b-ee75-45ca-baa0-3f49bfb05512)
-    (property "Reference" "R173" (at 213.36 115.57 90)
+    (property "Reference" "R173" (at 208.28 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 213.36 118.11 90)
+    (property "Value" "1k" (at 217.17 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.36 120.65 0)
@@ -2833,12 +2833,12 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 213.36 123.19 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bdb53bc9-7d73-46d6-93aa-a65c22c8f72d)
-    (property "Reference" "R174" (at 213.36 118.11 90)
+    (property "Reference" "R174" (at 208.28 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 213.36 120.65 90)
+    (property "Value" "1k" (at 217.17 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.36 123.19 0)
