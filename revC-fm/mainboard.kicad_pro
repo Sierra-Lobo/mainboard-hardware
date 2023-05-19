@@ -67,7 +67,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "warning",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "warning",
@@ -75,7 +75,7 @@
         "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "warning",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -480,13 +480,8 @@
       "/Power/3.3Vout": "Power",
       "/Power/VBUS_PREINHIB": "Power",
       "/Power/VCHRG": "Power",
-      "Net-(U15-PMID_1)": "Power",
-      "Net-(U15-SW_1)": "Power",
-      "Net-(U16-SW1)": "Power",
-      "Net-(U19-L1)": "Power",
-      "Net-(U19-L2)": "Power",
-      "Net-(U26-L1)": "Power",
-      "Net-(U26-L2)": "Power",
+      "Net-(U14-PMID_1)": "Power",
+      "Net-(U14-SW_1)": "Power",
       "VBUS": "Power",
       "VBUS_USB": "Power",
       "VCHRG_USB": "Power"
@@ -533,7 +528,7 @@
       "netlist": "mainboard.net",
       "specctra_dsn": "",
       "step": "mainboard.step",
-      "vrml": ""
+      "vrml": "mainboard.wrl"
     },
     "page_layout_descr_file": ""
   },
