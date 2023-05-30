@@ -404,7 +404,7 @@
   (symbol (lib_id "Transistor_BJT:MMDT3946") (at 115.57 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fc1a49f-8621-4501-a410-08d203bbb0e5)
-    (property "Reference" "Q38" (at 120.65 83.185 0)
+    (property "Reference" "Q40" (at 120.65 83.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMDT3946" (at 120.65 85.725 0)
@@ -428,19 +428,19 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "Q38") (unit 1)
+          (reference "Q40") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "Q22") (unit 1)
+          (reference "Q23") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
-          (reference "Q37") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
           (reference "Q39") (unit 1)
         )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
+          (reference "Q41") (unit 1)
+        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/68cb1cfa-66f3-4079-aaa8-5081a46702c5"
-          (reference "Q55") (unit 1)
+          (reference "Q60") (unit 1)
         )
       )
     )
@@ -449,7 +449,7 @@
   (symbol (lib_id "Transistor_BJT:MMDT3946") (at 115.57 96.52 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43655d4d-6514-4706-9351-269e5fe83772)
-    (property "Reference" "Q38" (at 120.65 97.155 0)
+    (property "Reference" "Q40" (at 120.65 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMDT3946" (at 120.65 94.615 0)
@@ -473,19 +473,19 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "Q38") (unit 2)
+          (reference "Q40") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "Q22") (unit 2)
+          (reference "Q23") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
-          (reference "Q37") (unit 2)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
           (reference "Q39") (unit 2)
         )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
+          (reference "Q41") (unit 2)
+        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/68cb1cfa-66f3-4079-aaa8-5081a46702c5"
-          (reference "Q55") (unit 2)
+          (reference "Q60") (unit 2)
         )
       )
     )
@@ -517,19 +517,19 @@
           (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "R153") (unit 1)
+          (reference "R165") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "R98") (unit 1)
+          (reference "R104") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
-          (reference "R151") (unit 1)
+          (reference "R163") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
-          (reference "R155") (unit 1)
+          (reference "R167") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/68cb1cfa-66f3-4079-aaa8-5081a46702c5"
-          (reference "R205") (unit 1)
+          (reference "R220") (unit 1)
         )
       )
     )
@@ -564,19 +564,19 @@
           (reference "C?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "C88") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "C80") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
-          (reference "C87") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
           (reference "C89") (unit 1)
         )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
+          (reference "C81") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
+          (reference "C88") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
+          (reference "C90") (unit 1)
+        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/68cb1cfa-66f3-4079-aaa8-5081a46702c5"
-          (reference "C111") (unit 1)
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -608,19 +608,19 @@
           (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "R154") (unit 1)
+          (reference "R166") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "R99") (unit 1)
+          (reference "R105") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
-          (reference "R152") (unit 1)
+          (reference "R164") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/58a3edb7-dfb1-4add-9075-2361d73480a6"
-          (reference "R156") (unit 1)
+          (reference "R168") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/68cb1cfa-66f3-4079-aaa8-5081a46702c5"
-          (reference "R206") (unit 1)
+          (reference "R221") (unit 1)
         )
       )
     )

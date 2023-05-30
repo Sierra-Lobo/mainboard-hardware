@@ -40,10 +40,10 @@
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.889,
-        "silk_text_size_v": 0.889,
+        "silk_text_size_h": 0.635,
+        "silk_text_size_v": 0.635,
         "silk_text_thickness": 0.127,
-        "silk_text_upright": false,
+        "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
           "min_clearance": 0.0
@@ -79,7 +79,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -477,14 +477,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/Power/3.3Vout": "Power",
-      "/Power/VBUS_PREINHIB": "Power",
-      "/Power/VCHRG": "Power",
-      "Net-(U14-PMID_1)": "Power",
-      "Net-(U14-SW_1)": "Power",
-      "VBUS": "Power",
-      "VBUS_USB": "Power",
-      "VCHRG_USB": "Power"
+      "/Power/VCHRG": "Power"
     },
     "netclass_patterns": [
       {
