@@ -1,0 +1,105 @@
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: 7.0.1
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.13
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x00000172309D6E50>
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with Q74 as a reference
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'Q74'
+Located on: ['Debug LEDs', 'LED1']
+With filenames: ['C:\\Users\\cjhillis\\Documents\\LOCAL\\Github\\mainboard-hardware\\revC-fm\\leds.kicad_sch', 'C:\\Users\\cjhillis\\Documents\\LOCAL\\Github\\mainboard-hardware\\revC-fm\\db_led.kicad_sch']
+With sheet_id:['Debug LEDs', 'LED1']
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('Q75', ['Debug LEDs', 'LED8']), ('Q74', ['Debug LEDs', 'LED1']), ('Q73', ['Debug LEDs', 'LED6']), ('Q72', ['Debug LEDs', 'LED4']), ('Q70', ['Debug LEDs', 'LED3']), ('Q69', ['Debug LEDs', 'LED2']), ('Q63', ['Debug LEDs', 'LED5']), ('Q3', ['Debug LEDs', 'LED7'])]
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 390:constructing a list of sheets suitable for replication on level:'LED1', file:'C:\\Users\\cjhillis\\Documents\\LOCAL\\Github\\mainboard-hardware\\revC-fm\\db_led.kicad_sch'
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 427:suitable sheets are:[['Debug LEDs', 'LED2'], ['Debug LEDs', 'LED3'], ['Debug LEDs', 'LED4'], ['Debug LEDs', 'LED5'], ['Debug LEDs', 'LED6'], ['Debug LEDs', 'LED7'], ['Debug LEDs', 'LED8']]
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1349:Level selected: ['Debug LEDs', 'LED1']
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1184:Filtering list of tracks
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(3803, 80)
+06-09 15:45:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(3439, 80)
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 390:constructing a list of sheets suitable for replication on level:'LED1', file:'C:\\Users\\cjhillis\\Documents\\LOCAL\\Github\\mainboard-hardware\\revC-fm\\db_led.kicad_sch'
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 427:suitable sheets are:[['Debug LEDs', 'LED2'], ['Debug LEDs', 'LED3'], ['Debug LEDs', 'LED4'], ['Debug LEDs', 'LED5'], ['Debug LEDs', 'LED6'], ['Debug LEDs', 'LED7'], ['Debug LEDs', 'LED8']]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 236:Starting replication of sheets: [['Debug LEDs', 'LED2'], ['Debug LEDs', 'LED3'], ['Debug LEDs', 'LED4'], ['Debug LEDs', 'LED5'], ['Debug LEDs', 'LED6'], ['Debug LEDs', 'LED7'], ['Debug LEDs', 'LED8']]
+on level: ['Debug LEDs', 'LED1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+06-09 15:45:10 root 299:updating GUI message: 'Preparing for replication'
+06-09 15:45:10 root 304:updating GUI with: 0
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 306:Getting the list of source footprints
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 316:Getting the list of all the remaining footprints
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 323:Getting source tracks
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1184:Filtering list of tracks
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source zones
+06-09 15:45:10 root 304:updating GUI with: 50
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source text items
+06-09 15:45:10 root 304:updating GUI with: 66
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source drawing items
+06-09 15:45:10 root 299:updating GUI message: 'Replicating footprints'
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 741:Replicating footprints
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED2']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED3']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED4']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED5']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED6']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED7']
+06-09 15:45:10 root 304:updating GUI with: 80
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 747:Replicating footprints on sheet ['Debug LEDs', 'LED8']
+06-09 15:45:10 root 299:updating GUI message: 'Replicating tracks'
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 906:Replicating tracks
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED2']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED2'] :[('+BATT', 'VBUS'), ('GND', 'GND'), ('Net-(Q74A-C1)', 'Net-(Q69A-C1)'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-A)', 'Net-(LED5-A)'), ('Net-(LED11-K)', 'Net-(LED5-K)'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED3']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED3'] :[('Net-(LED11-A)', 'Net-(LED12-A)'), ('+BATT', '5VSYS_PG'), ('GND', 'GND'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-K)', 'Net-(LED12-K)'), ('LED_EN', 'LED_EN'), ('Net-(Q74A-C1)', 'Net-(Q70A-C1)')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED4']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED4'] :[('GND', 'GND'), ('Net-(Q74A-C1)', 'Net-(Q72A-C1)'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-K)', 'Net-(LED13-K)'), ('Net-(LED11-A)', 'Net-(LED13-A)'), ('+BATT', '5VPL_PG'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED5']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED5'] :[('+BATT', 'CHRG_1'), ('GND', 'GND'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-A)', 'Net-(LED9-A)'), ('LED_EN', 'LED_EN'), ('Net-(LED11-K)', 'Net-(LED9-K)'), ('Net-(Q74A-C1)', 'Net-(Q63A-C1)')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED6']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED6'] :[('GND', 'GND'), ('Net-(LED11-K)', 'Net-(LED10-K)'), ('LED_PWR', 'LED_PWR'), ('+BATT', 'CHRG_2'), ('Net-(Q74A-C1)', 'Net-(Q73A-C1)'), ('Net-(LED11-A)', 'Net-(LED10-A)'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED7']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED7'] :[('Net-(Q74A-C1)', 'Net-(Q3A-C1)'), ('GND', 'GND'), ('Net-(LED11-K)', 'Net-(LED6-K)'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-A)', 'Net-(LED6-A)'), ('+BATT', 'STAT'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 912:Replicating tracks on sheet ['Debug LEDs', 'LED8']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 720:Cannot pair src net: ['+BATT'] and dst net: ['', 'Debug LEDs', 'LED8', 'ON'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED8'] :[('GND', 'GND'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-K)', 'Net-(LED14-K)'), ('Net-(LED11-A)', 'Net-(LED14-A)'), ('Net-(Q74A-C1)', 'Net-(Q75A-C1)'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 root 299:updating GUI message: 'Replicating zones'
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 964:Replicating zones
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED2']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED2'] :[('+BATT', 'VBUS'), ('GND', 'GND'), ('Net-(Q74A-C1)', 'Net-(Q69A-C1)'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-A)', 'Net-(LED5-A)'), ('Net-(LED11-K)', 'Net-(LED5-K)'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED3']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED3'] :[('Net-(LED11-A)', 'Net-(LED12-A)'), ('+BATT', '5VSYS_PG'), ('GND', 'GND'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-K)', 'Net-(LED12-K)'), ('LED_EN', 'LED_EN'), ('Net-(Q74A-C1)', 'Net-(Q70A-C1)')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED4']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED4'] :[('GND', 'GND'), ('Net-(Q74A-C1)', 'Net-(Q72A-C1)'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-K)', 'Net-(LED13-K)'), ('Net-(LED11-A)', 'Net-(LED13-A)'), ('+BATT', '5VPL_PG'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED5']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED5'] :[('+BATT', 'CHRG_1'), ('GND', 'GND'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-A)', 'Net-(LED9-A)'), ('LED_EN', 'LED_EN'), ('Net-(LED11-K)', 'Net-(LED9-K)'), ('Net-(Q74A-C1)', 'Net-(Q63A-C1)')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED6']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED6'] :[('GND', 'GND'), ('Net-(LED11-K)', 'Net-(LED10-K)'), ('LED_PWR', 'LED_PWR'), ('+BATT', 'CHRG_2'), ('Net-(Q74A-C1)', 'Net-(Q73A-C1)'), ('Net-(LED11-A)', 'Net-(LED10-A)'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED7']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED7'] :[('Net-(Q74A-C1)', 'Net-(Q3A-C1)'), ('GND', 'GND'), ('Net-(LED11-K)', 'Net-(LED6-K)'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-A)', 'Net-(LED6-A)'), ('+BATT', 'STAT'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 971:Replicating zones on sheet ['Debug LEDs', 'LED8']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 720:Cannot pair src net: ['+BATT'] and dst net: ['', 'Debug LEDs', 'LED8', 'ON'], with src_net_depth=1, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 736:Net pairs for sheet ['Debug LEDs', 'LED8'] :[('GND', 'GND'), ('LED_PWR', 'LED_PWR'), ('Net-(LED11-K)', 'Net-(LED14-K)'), ('Net-(LED11-A)', 'Net-(LED14-A)'), ('Net-(Q74A-C1)', 'Net-(Q75A-C1)'), ('LED_EN', 'LED_EN')]
+06-09 15:45:10 root 299:updating GUI message: 'Replicating text'
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1042:Replicating text
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED2']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED3']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED4']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED5']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED6']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED7']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1049:Replicating text on sheet ['Debug LEDs', 'LED8']
+06-09 15:45:10 root 299:updating GUI message: 'Replicating drawings'
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating drawings
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED2']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED3']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED4']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED5']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED6']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED7']
+06-09 15:45:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1088:Replicating drawings on sheet ['Debug LEDs', 'LED8']
+06-09 15:45:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+06-09 15:45:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 226:Letting the user know there are some issues with replicated design
+06-09 15:45:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 230:Looks like the design has an exotic connectivity that is not supported by the plugin
+ Make sure that you check the connectivity around:
+Footprint Q75, pad 4
+

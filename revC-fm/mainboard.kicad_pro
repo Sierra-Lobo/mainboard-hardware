@@ -46,7 +46,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -476,9 +476,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Power/VCHRG": "Power"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -588,11 +586,15 @@
     ],
     [
       "a78437db-a0fc-4cde-8346-4d17e2576807",
-      "Solar Charge Regulator"
+      "Energy Harvester"
     ],
     [
       "53885b8c-c161-44ce-91a5-b0138f84f00b",
       "5V Payload Regulator"
+    ],
+    [
+      "436235f3-07df-4e9c-bd26-6e3a7876cd4f",
+      "I2C Protection 2"
     ],
     [
       "108189db-ac43-429a-bea6-7a20153b7e07",
@@ -632,7 +634,7 @@
     ],
     [
       "81f44d01-bc9f-4b7f-b957-1cda63083cdb",
-      "Backplane Card Interface"
+      "Backplane Interface"
     ],
     [
       "68cb1cfa-66f3-4079-aaa8-5081a46702c5",
@@ -655,24 +657,72 @@
       "Temp Sensor 4"
     ],
     [
+      "be422af8-38c2-45a7-89b4-b510edd2c23f",
+      "Solar Charger 2"
+    ],
+    [
       "cda1ad7d-3729-4e28-9f04-75ded2a9befd",
       "Analog Conditioning"
     ],
     [
-      "ee210c8d-291d-41a7-a931-825d6684c4c7",
-      "TLE Conditioning 2"
+      "bed33d55-6e40-4aeb-9e41-ed84f0a2e885",
+      "I2C Protection 3"
     ],
     [
-      "9aa82d3e-9086-43dc-9a48-d6fe4291fbae",
-      "Temperature Compensation"
+      "16f74d99-fb34-4942-94f7-264307a230d0",
+      "SPI Protection 2"
     ],
     [
-      "481c2648-1c11-4304-b4e8-bc2bdf9046ec",
-      "TLE Conditioning 1"
+      "8f80f71d-2dab-4aed-a364-86eb17282b90",
+      "SPI Protection 3"
+    ],
+    [
+      "dcdd3213-28cf-4061-b3ff-ab05443cbdbd",
+      "I2C Protection 1"
+    ],
+    [
+      "07bbf6cc-ca9c-4e7b-891d-ca53dadfd1e8",
+      "Solar Charger 1"
+    ],
+    [
+      "f59d3a27-35da-42dd-8f28-13490a6a67ab",
+      "SPI Protection 4"
+    ],
+    [
+      "0be551f5-4cd0-4099-afa0-41f5d887dd91",
+      "SPI Protection 1"
     ],
     [
       "85bb4555-d695-4644-80ca-b3678055f7ba",
       "OCP"
+    ],
+    [
+      "94774350-68be-4131-9d22-bdea2eae3261",
+      "Debug LEDs"
+    ],
+    [
+      "26c7b1e9-b366-492c-be9e-83b88a5fa8e6",
+      "LED2"
+    ],
+    [
+      "51f684eb-7c47-4469-82a8-b507e037a52f",
+      "LED1"
+    ],
+    [
+      "14a6998c-ffe6-42d1-963e-e80449405007",
+      "LED3"
+    ],
+    [
+      "bdd3e858-dbd7-4a4f-b8ee-98b758544d47",
+      "LED4"
+    ],
+    [
+      "1da642f5-94f2-4bd1-98ca-462c89216b58",
+      "LED5"
+    ],
+    [
+      "0355bb7f-4ca3-4b4d-a29e-300b0aa4ccec",
+      "LED6"
     ],
     [
       "85bb4555-d695-4644-80ca-b3678055f7ba",
