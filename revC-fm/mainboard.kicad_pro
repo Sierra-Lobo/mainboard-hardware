@@ -597,28 +597,16 @@
       "I2C Protection 2"
     ],
     [
-      "108189db-ac43-429a-bea6-7a20153b7e07",
-      "Inhibits"
-    ],
-    [
-      "b16406a3-1a56-4ff9-817d-a6e31635f1dc",
-      "High Side Driver 2"
+      "4c3121c8-bd10-459a-a6ea-38d5e9e20bca",
+      "USB Charge Inhibit"
     ],
     [
       "00000000-0000-0000-0000-00005ede7915",
       "Bus Protection"
     ],
     [
-      "98075574-42bb-442c-ab5b-88185f36e4d7",
-      "High Side Driver 3"
-    ],
-    [
-      "ea6bccc4-7d11-4c72-aac6-c14ca6d386f6",
-      "High Side Driver 1"
-    ],
-    [
-      "58a3edb7-dfb1-4add-9075-2361d73480a6",
-      "High Side Driver 4"
+      "185dd961-1d17-4f06-b36f-81ebbaab9526",
+      "USB Bus Inhibit"
     ],
     [
       "00000000-0000-0000-0000-00005cec6281",
@@ -637,16 +625,12 @@
       "Backplane Interface"
     ],
     [
-      "68cb1cfa-66f3-4079-aaa8-5081a46702c5",
-      "High Side Driver 5"
-    ],
-    [
       "795619f3-8bd8-4f29-a923-296e7ed8459e",
       "Temp Sensor 2"
     ],
     [
-      "9a2f7458-daa0-4897-b1a7-e66c6dd2d928",
-      "Low Side Driver 1"
+      "5072d025-6899-4f07-a40f-14427a0524d4",
+      "High Inhibit 1"
     ],
     [
       "e299339d-e625-4f2c-804c-bf3cf31a6799",
@@ -701,28 +685,20 @@
       "Debug LEDs"
     ],
     [
-      "26c7b1e9-b366-492c-be9e-83b88a5fa8e6",
-      "LED2"
+      "9d835762-b822-46e1-9aec-abb34848e4f5",
+      "Low Inhibit"
     ],
     [
-      "51f684eb-7c47-4469-82a8-b507e037a52f",
-      "LED1"
+      "2ac2e7a3-f0ad-4d15-ac6e-9ba021d6782a",
+      "High Inhibit 2"
     ],
     [
-      "14a6998c-ffe6-42d1-963e-e80449405007",
-      "LED3"
+      "88093887-0c33-45d6-99b0-9b95992083af",
+      "RBF Inhibit"
     ],
     [
-      "bdd3e858-dbd7-4a4f-b8ee-98b758544d47",
-      "LED4"
-    ],
-    [
-      "1da642f5-94f2-4bd1-98ca-462c89216b58",
-      "LED5"
-    ],
-    [
-      "0355bb7f-4ca3-4b4d-a29e-300b0aa4ccec",
-      "LED6"
+      "e6cd0522-f6a3-4d03-a803-93519a6d1ef5",
+      "3.3V Regulator"
     ],
     [
       "85bb4555-d695-4644-80ca-b3678055f7ba",

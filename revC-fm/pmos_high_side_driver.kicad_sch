@@ -433,12 +433,6 @@
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
           (reference "C?") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "C73") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "C71") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
           (reference "C72") (unit 1)
         )
@@ -478,12 +472,6 @@
     (pin "5" (uuid 6729a537-95b8-4c28-83f1-384bff33e277))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "Q27") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "Q24") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
           (reference "Q26") (unit 1)
         )
@@ -523,12 +511,6 @@
     (pin "5" (uuid 3312cdbe-d777-4588-9951-f6d849b1f907))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "Q27") (unit 2)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "Q24") (unit 2)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
           (reference "Q26") (unit 2)
         )
@@ -561,12 +543,6 @@
     (pin "2" (uuid eb15b35e-b7ac-4cf9-9825-1b6b68e7e8c1))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "R98") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "R91") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
           (reference "R95") (unit 1)
         )
@@ -605,12 +581,6 @@
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
           (reference "R?") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "R100") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "R93") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
           (reference "R97") (unit 1)
         )
@@ -648,12 +618,6 @@
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07"
           (reference "R?") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/ea6bccc4-7d11-4c72-aac6-c14ca6d386f6"
-          (reference "R99") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/b16406a3-1a56-4ff9-817d-a6e31635f1dc"
-          (reference "R92") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/108189db-ac43-429a-bea6-7a20153b7e07/98075574-42bb-442c-ab5b-88185f36e4d7"
           (reference "R96") (unit 1)
