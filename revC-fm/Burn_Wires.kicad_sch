@@ -1019,7 +1019,7 @@
     (property "Reference" "Q20" (at 187.96 22.86 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Value" "BSZ180P03NS3GATMA1" (at 198.12 26.67 90)
+    (property "Value" "BSZ180" (at 198.12 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "SierraLobo:PG-TSDSON-8_3.3x3.3mm" (at 191.77 30.353 0)
@@ -1049,7 +1049,7 @@
     (property "Reference" "Q23" (at 186.69 53.34 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Value" "BSZ180P03NS3GATMA1" (at 198.12 57.15 90)
+    (property "Value" "BSZ180" (at 198.12 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "SierraLobo:PG-TSDSON-8_3.3x3.3mm" (at 191.77 60.833 0)
@@ -1426,7 +1426,7 @@
   (symbol (lib_id "mainboard-rescue:D_Schottky-Device-mainboard-rescue") (at 58.42 34.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2829b8f-30c3-42c3-aacd-a70102473fd3)
-    (property "Reference" "D9" (at 58.42 27.7114 90)
+    (property "Reference" "D4" (at 58.42 27.7114 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SBRT5A50SA-13" (at 58.42 25.4 90)
@@ -1445,9 +1445,6 @@
     (pin "2" (uuid 1cc4d88a-6da3-484d-9eb2-59f5a884ae24))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "D9") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec6476"
           (reference "D4") (unit 1)
         )

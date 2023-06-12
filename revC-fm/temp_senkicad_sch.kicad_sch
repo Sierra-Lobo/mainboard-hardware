@@ -356,7 +356,7 @@
   (symbol (lib_id "power:GND") (at 148.59 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ecfe786-054c-4baa-8bd1-9024106e6fbe)
-    (property "Reference" "#PWR04" (at 148.59 110.49 0)
+    (property "Reference" "#PWR050" (at 148.59 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 107.95 0)
@@ -371,9 +371,6 @@
     (pin "1" (uuid cb399213-a2e2-4843-9d4f-3cceb7111473))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
           (reference "#PWR050") (unit 1)
         )
@@ -393,7 +390,7 @@
   (symbol (lib_id "Device:R_US") (at 109.22 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c772413-f087-4ded-880d-27e8564eb41a)
-    (property "Reference" "R36" (at 109.22 91.44 90)
+    (property "Reference" "R29" (at 109.22 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 109.22 93.98 90)
@@ -412,9 +409,6 @@
     (pin "2" (uuid 5e43d5f1-c988-4c18-adb6-23bcc1b27a3c))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "R36") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
           (reference "R29") (unit 1)
         )
@@ -434,7 +428,7 @@
   (symbol (lib_id "Sensor_Temperature:MCP9700Ax-ELT") (at 129.54 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cd25eb7-4cf0-4656-939f-8b1b12921112)
-    (property "Reference" "U24" (at 130.81 85.09 0)
+    (property "Reference" "U9" (at 130.81 85.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MCP9700AT-E/LT" (at 137.16 87.63 0)
@@ -456,9 +450,6 @@
     (pin "5" (uuid 9e94f04c-5bc0-4d6b-86ee-ad1154309638))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "U24") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
           (reference "U9") (unit 1)
         )
@@ -478,7 +469,7 @@
   (symbol (lib_id "power:GND") (at 129.54 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3418ad83-7a42-4173-b511-335796196714)
-    (property "Reference" "#PWR0136" (at 129.54 110.49 0)
+    (property "Reference" "#PWR049" (at 129.54 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 107.95 0)
@@ -493,9 +484,6 @@
     (pin "1" (uuid f33f952b-81d0-4fc1-a01a-de8c5b799c58))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "#PWR0136") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
           (reference "#PWR049") (unit 1)
         )
@@ -515,7 +503,7 @@
   (symbol (lib_id "Device:C") (at 148.59 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43722557-a066-46aa-bb71-55f1f83d2a5a)
-    (property "Reference" "C100" (at 140.97 99.06 0)
+    (property "Reference" "C31" (at 140.97 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 140.97 101.6 0)
@@ -534,9 +522,6 @@
     (pin "2" (uuid 44112b51-0262-44c0-b959-2d0c6c977c0b))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "C100") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
           (reference "C31") (unit 1)
         )
@@ -556,7 +541,7 @@
   (symbol (lib_id "Device:C") (at 118.11 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc0d3513-8c1e-4cb2-a526-b3f2c97d87d7)
-    (property "Reference" "C99" (at 111.76 95.25 0)
+    (property "Reference" "C30" (at 111.76 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 111.76 97.79 0)
@@ -575,9 +560,6 @@
     (pin "2" (uuid 53e4650b-a226-4934-a009-3564d9880da8))
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/a78437db-a0fc-4cde-8346-4d17e2576807"
-          (reference "C99") (unit 1)
-        )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
           (reference "C30") (unit 1)
         )
