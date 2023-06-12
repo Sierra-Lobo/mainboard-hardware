@@ -1010,13 +1010,6 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 94471132-953b-41d6-9c3b-17634fd4ee19)
   )
-  (text_box "No heritage for TPS63070, failure of device has potenital to cause upstream fault.\n\nImplementaiton of an OCL protection circuit will disable power to device when input current exceeds threshold set by LIMIT resistor.\nLIMIT resistor shall be calculated such that circuit will only trip due to current surpassing extreme operational bounds (i.e. 40% margin at 80% conversion efficiency).\nEN enables power delivery to device.\n\n~{ALERT} open drain output turns off power delivery to device, readable by MCU.\n\nLATCH input shall be assigned high by MCU, toggle to clear ~{ALERT}, re-enabling power delivery to device.\n\n~{ALERT} can be overriden by MCU by being assigned high, not advised but available as last resort or to prevent nusianse trips for periods of time."
-    (at 254 62.23 0) (size 50.8 49.53)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid faa886e2-90b5-43c3-b58a-bc9a008a0a7b)
-  )
 
   (text "10k iffyish" (at 128.27 91.44 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1039,7 +1032,7 @@
     (uuid 7dd56862-d233-45ba-b717-f307ce239f0e)
   )
   (text "Heirarchal Pin Descriptions:\n\nEN = enables PFET before regulator\n\n~{ALERT} = OCP alert, turns off PFET, toggle LATCH to clear\n\nLATCH = MCU assigns normally high, toggle to clear alert\n\nLIMIT = OCP trip setting resistor.\n"
-    (at 101.6 38.1 0)
+    (at 34.29 133.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 95fe55c5-afb1-4664-ac38-9e4a94fcc788)
   )

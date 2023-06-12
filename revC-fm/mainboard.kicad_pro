@@ -620,116 +620,32 @@
       "Avionics"
     ],
     [
-      "8821f222-8792-4e4d-9d02-2f4e81ef493f",
-      "Temp Sensor 1"
-    ],
-    [
       "00000000-0000-0000-0000-00005cec5dde",
       "Power"
-    ],
-    [
-      "53885b8c-c161-44ce-91a5-b0138f84f00b",
-      "5V Payload Regulator"
-    ],
-    [
-      "436235f3-07df-4e9c-bd26-6e3a7876cd4f",
-      "I2C Protection 2"
     ],
     [
       "5da17c8a-a47d-47b0-bb38-4603a965f65c",
       "Solar Charger 1"
     ],
     [
-      "4c3121c8-bd10-459a-a6ea-38d5e9e20bca",
-      "USB Charge Inhibit"
-    ],
-    [
-      "00000000-0000-0000-0000-00005ede7915",
-      "Bus Protection"
-    ],
-    [
-      "185dd961-1d17-4f06-b36f-81ebbaab9526",
-      "USB Bus Inhibit"
-    ],
-    [
       "402c84bb-da23-4e6b-b5ca-299c5c495bf7",
       "Solar Charger 2"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cec6281",
-      "RF and GPS"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cec6476",
-      "Burn Wires"
-    ],
-    [
-      "e8ea383f-c455-4d7b-919b-f163579151f6",
-      "5V Bus Regulator"
-    ],
-    [
-      "81f44d01-bc9f-4b7f-b957-1cda63083cdb",
-      "Backplane Interface"
-    ],
-    [
-      "795619f3-8bd8-4f29-a923-296e7ed8459e",
-      "Temp Sensor 2"
-    ],
-    [
-      "5072d025-6899-4f07-a40f-14427a0524d4",
-      "High Inhibit 1"
-    ],
-    [
-      "e299339d-e625-4f2c-804c-bf3cf31a6799",
-      "Temp Sensor 3"
-    ],
-    [
-      "ea7f9fd6-aeb6-4ec9-906e-e84511ddb647",
-      "Temp Sensor 4"
-    ],
-    [
-      "cda1ad7d-3729-4e28-9f04-75ded2a9befd",
-      "Analog Conditioning"
-    ],
-    [
-      "bed33d55-6e40-4aeb-9e41-ed84f0a2e885",
-      "I2C Protection 3"
-    ],
-    [
-      "16f74d99-fb34-4942-94f7-264307a230d0",
-      "SPI Protection 2"
-    ],
-    [
-      "8f80f71d-2dab-4aed-a364-86eb17282b90",
-      "SPI Protection 3"
-    ],
-    [
-      "dcdd3213-28cf-4061-b3ff-ab05443cbdbd",
-      "I2C Protection 1"
-    ],
-    [
-      "f59d3a27-35da-42dd-8f28-13490a6a67ab",
-      "SPI Protection 4"
-    ],
-    [
-      "0be551f5-4cd0-4099-afa0-41f5d887dd91",
-      "SPI Protection 1"
-    ],
-    [
-      "85bb4555-d695-4644-80ca-b3678055f7ba",
-      "OCP"
-    ],
-    [
-      "94774350-68be-4131-9d22-bdea2eae3261",
-      "Debug LEDs"
     ],
     [
       "d4540787-47b0-4c7f-8e03-765ada5e72de",
       "USB Charger"
     ],
     [
-      "9d835762-b822-46e1-9aec-abb34848e4f5",
-      "Low Inhibit"
+      "4c3121c8-bd10-459a-a6ea-38d5e9e20bca",
+      "USB Charge Inhibit"
+    ],
+    [
+      "185dd961-1d17-4f06-b36f-81ebbaab9526",
+      "USB Bus Inhibit"
+    ],
+    [
+      "5072d025-6899-4f07-a40f-14427a0524d4",
+      "High Inhibit 1"
     ],
     [
       "2ac2e7a3-f0ad-4d15-ac6e-9ba021d6782a",
@@ -740,12 +656,96 @@
       "RBF Inhibit"
     ],
     [
-      "e6cd0522-f6a3-4d03-a803-93519a6d1ef5",
-      "3.3V Regulator"
+      "9d835762-b822-46e1-9aec-abb34848e4f5",
+      "Low Inhibit"
+    ],
+    [
+      "e8ea383f-c455-4d7b-919b-f163579151f6",
+      "5V Bus Regulator"
     ],
     [
       "85bb4555-d695-4644-80ca-b3678055f7ba",
       "OCP"
+    ],
+    [
+      "53885b8c-c161-44ce-91a5-b0138f84f00b",
+      "5V Payload Regulator"
+    ],
+    [
+      "85bb4555-d695-4644-80ca-b3678055f7ba",
+      "OCP"
+    ],
+    [
+      "e6cd0522-f6a3-4d03-a803-93519a6d1ef5",
+      "3.3V Regulator"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ede7915",
+      "Bus Protection"
+    ],
+    [
+      "dcdd3213-28cf-4061-b3ff-ab05443cbdbd",
+      "I2C Protection 1"
+    ],
+    [
+      "436235f3-07df-4e9c-bd26-6e3a7876cd4f",
+      "I2C Protection 2"
+    ],
+    [
+      "bed33d55-6e40-4aeb-9e41-ed84f0a2e885",
+      "I2C Protection 3"
+    ],
+    [
+      "0be551f5-4cd0-4099-afa0-41f5d887dd91",
+      "SPI Protection 1"
+    ],
+    [
+      "16f74d99-fb34-4942-94f7-264307a230d0",
+      "SPI Protection 2"
+    ],
+    [
+      "8f80f71d-2dab-4aed-a364-86eb17282b90",
+      "SPI Protection 3"
+    ],
+    [
+      "f59d3a27-35da-42dd-8f28-13490a6a67ab",
+      "SPI Protection 4"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cec6281",
+      "RF and GPS"
+    ],
+    [
+      "cda1ad7d-3729-4e28-9f04-75ded2a9befd",
+      "Analog Conditioning"
+    ],
+    [
+      "8821f222-8792-4e4d-9d02-2f4e81ef493f",
+      "Temp Sensor 1"
+    ],
+    [
+      "795619f3-8bd8-4f29-a923-296e7ed8459e",
+      "Temp Sensor 2"
+    ],
+    [
+      "e299339d-e625-4f2c-804c-bf3cf31a6799",
+      "Temp Sensor 3"
+    ],
+    [
+      "ea7f9fd6-aeb6-4ec9-906e-e84511ddb647",
+      "Temp Sensor 4"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cec6476",
+      "Burn Wires"
+    ],
+    [
+      "81f44d01-bc9f-4b7f-b957-1cda63083cdb",
+      "Backplane Interface"
+    ],
+    [
+      "94774350-68be-4131-9d22-bdea2eae3261",
+      "Debug LEDs"
     ]
   ],
   "text_variables": {}

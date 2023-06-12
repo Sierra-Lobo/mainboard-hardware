@@ -2529,7 +2529,8 @@
     )
     (instances
       (project "mainboard"
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6" (page "30"))
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6" (page "14"))
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b" (page "16"))
       )
     )
   )
