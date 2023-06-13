@@ -1106,7 +1106,10 @@
     (property "Datasheet" "~" (at 68.58 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "WSLPx" (at 68.58 50.8 0)
+    (property "Mfr. Part No" "WSLP1206R0220" (at 68.58 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay Dale" (at 68.58 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d20d228b-ef99-45d6-967a-b56254a267a1))
@@ -1120,10 +1123,10 @@
           (reference "R38") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R220") (unit 1)
+          (reference "R128") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R264") (unit 1)
+          (reference "R142") (unit 1)
         )
       )
     )
@@ -1144,7 +1147,10 @@
     (property "Datasheet" "~" (at 45.72 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 45.72 91.44 0)
+    (property "Mfr. Part No" "CGA2B3X7R1H104K050BE" (at 45.72 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "TDK" (at 45.72 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4f96632c-8de6-44ad-a5d0-e16f580ec826))
@@ -1158,10 +1164,10 @@
           (reference "C148") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "C110") (unit 1)
+          (reference "C72") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "C132") (unit 1)
+          (reference "C84") (unit 1)
         )
       )
     )
@@ -1170,7 +1176,7 @@
   (symbol (lib_id "Device:R_US") (at 173.99 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2101ac30-5c7a-430c-a108-bdff56e94c5e)
-    (property "Reference" "R225" (at 173.99 81.28 90)
+    (property "Reference" "R132" (at 173.99 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 173.99 83.82 90)
@@ -1182,7 +1188,10 @@
     (property "Datasheet" "~" (at 173.99 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 173.99 86.36 0)
+    (property "Mfr. Part No" "RMCF0402FT100K" (at 173.99 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics" (at 173.99 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 83dffd85-faee-4c49-9954-eb2e8d8a4433))
@@ -1190,10 +1199,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R225") (unit 1)
+          (reference "R132") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R269") (unit 1)
+          (reference "R146") (unit 1)
         )
       )
     )
@@ -1202,7 +1211,7 @@
   (symbol (lib_id "SierraLobo:R_Network_04_US_Split") (at 54.61 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25caf3d0-6851-4a9c-b2cb-67c2b8416143)
-    (property "Reference" "RN7" (at 57.15 92.075 0)
+    (property "Reference" "RN5" (at 57.15 92.075 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 57.15 94.615 0)
@@ -1217,6 +1226,9 @@
     (property "Mfr. Part No" "RAVF164DJT1K00" (at 54.61 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Stackpole Electronics" (at 54.61 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fbc40224-b13b-4cc4-810f-a5c316ec0e85))
     (pin "8" (uuid f946d994-7486-4914-9685-ade54c7b4701))
     (pin "2" (uuid ea12b174-25ad-48e2-aca8-67abe68d20f9))
@@ -1228,10 +1240,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN7") (unit 1)
+          (reference "RN5") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN8") (unit 1)
+          (reference "RN6") (unit 1)
         )
       )
     )
@@ -1240,7 +1252,7 @@
   (symbol (lib_id "Device:R_US") (at 196.85 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b6eb126-4f06-4891-942a-19ecb91f2541)
-    (property "Reference" "R223" (at 199.39 67.945 0)
+    (property "Reference" "R130" (at 199.39 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 199.39 70.485 0)
@@ -1252,7 +1264,10 @@
     (property "Datasheet" "~" (at 196.85 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 196.85 68.58 0)
+    (property "Mfr. Part No" "RMCF0402FT100K" (at 196.85 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics" (at 196.85 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e2d80bc8-b031-4c59-940c-72273e5ece8c))
@@ -1260,10 +1275,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R223") (unit 1)
+          (reference "R130") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R267") (unit 1)
+          (reference "R144") (unit 1)
         )
       )
     )
@@ -1287,6 +1302,9 @@
     (property "Mfr. Part No" "MMDT3946-7-F" (at 180.34 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Diodes Incorporated" (at 180.34 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d789f77e-317c-4c33-8765-951d469f76fd))
     (pin "2" (uuid 45b60a0e-5904-48d2-afca-b47cb933e018))
     (pin "6" (uuid 3c4444a5-056a-4f99-992e-3db8dae5a966))
@@ -1302,10 +1320,10 @@
           (reference "Q58") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "Q51") (unit 2)
+          (reference "Q32") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "Q69") (unit 2)
+          (reference "Q35") (unit 2)
         )
       )
     )
@@ -1314,7 +1332,7 @@
   (symbol (lib_id "Device:C") (at 208.28 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f71980e-1247-4a51-85f9-eccfdda88794)
-    (property "Reference" "C111" (at 212.09 67.945 0)
+    (property "Reference" "C71" (at 212.09 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 212.09 70.485 0)
@@ -1326,7 +1344,10 @@
     (property "Datasheet" "~" (at 208.28 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 208.28 68.58 0)
+    (property "Mfr. Part No" "CGA3E1X7R1V105K080AE" (at 208.28 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "TDK" (at 208.28 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 315b1ab0-7eee-4dfb-8e5e-5165a40f27b3))
@@ -1334,10 +1355,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "C111") (unit 1)
+          (reference "C71") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "C133") (unit 1)
+          (reference "C83") (unit 1)
         )
       )
     )
@@ -1346,7 +1367,7 @@
   (symbol (lib_id "Device:R_US") (at 101.6 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a1e45b2-e1f4-4e79-b4d2-a0d871721fe4)
-    (property "Reference" "R222" (at 97.79 92.71 90)
+    (property "Reference" "R133" (at 97.79 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 105.41 92.71 90)
@@ -1358,7 +1379,10 @@
     (property "Datasheet" "~" (at 101.6 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 101.6 93.98 0)
+    (property "Mfr. Part No" "ERJ-2GEJ102X" (at 101.6 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic" (at 101.6 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 27084760-e09d-4231-b161-d85e1e6f961a))
@@ -1366,10 +1390,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R222") (unit 1)
+          (reference "R133") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R266") (unit 1)
+          (reference "R147") (unit 1)
         )
       )
     )
@@ -1378,7 +1402,7 @@
   (symbol (lib_id "Device:D") (at 196.85 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d038629-7d8a-4ee1-be50-2a5a7a4e3c64)
-    (property "Reference" "D20" (at 199.39 94.615 90)
+    (property "Reference" "D8" (at 199.39 94.615 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1SS400T1G" (at 199.39 97.155 90)
@@ -1396,7 +1420,10 @@
     (property "Sim.Pins" "1=K 2=A" (at 196.85 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 196.85 95.25 0)
+    (property "Mfr. Part No" "1SS400T1G" (at 196.85 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "onsemi" (at 196.85 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 64866a4d-7b4c-469a-855a-20bb1ec47295))
@@ -1404,10 +1431,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "D20") (unit 1)
+          (reference "D8") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "D23") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1438,10 +1465,10 @@
           (reference "#SUPPLY028") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#SUPPLY046") (unit 1)
+          (reference "#SUPPLY037") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#SUPPLY047") (unit 1)
+          (reference "#SUPPLY041") (unit 1)
         )
       )
     )
@@ -1472,10 +1499,10 @@
           (reference "#SUPPLY028") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#SUPPLY048") (unit 1)
+          (reference "#SUPPLY036") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#SUPPLY049") (unit 1)
+          (reference "#SUPPLY040") (unit 1)
         )
       )
     )
@@ -1506,10 +1533,10 @@
           (reference "#PWR0121") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#PWR0194") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -1518,7 +1545,7 @@
   (symbol (lib_id "Device:R_US") (at 231.14 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83b9d63b-0af8-4f78-acee-16b5a315a71f)
-    (property "Reference" "R224" (at 233.68 66.675 0)
+    (property "Reference" "R129" (at 233.68 66.675 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 233.68 69.215 0)
@@ -1530,7 +1557,10 @@
     (property "Datasheet" "~" (at 231.14 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 231.14 67.31 0)
+    (property "Mfr. Part No" "ERJ-2GEJ102X" (at 231.14 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic" (at 231.14 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7e53bd8d-7d47-4d19-b736-b08525bf9189))
@@ -1538,10 +1568,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R224") (unit 1)
+          (reference "R129") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R268") (unit 1)
+          (reference "R143") (unit 1)
         )
       )
     )
@@ -1565,6 +1595,9 @@
     (property "Mfr. Part No" "MMDT3946-7-F" (at 194.31 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Diodes Incorporated" (at 194.31 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e7ac5735-aa48-4f12-815f-c7a6d9e6154a))
     (pin "2" (uuid 4c25f2e1-de8d-47eb-a481-be21b4444037))
     (pin "6" (uuid 4b35a078-f3ba-48c9-b486-d39870882e96))
@@ -1580,10 +1613,10 @@
           (reference "Q58") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "Q51") (unit 1)
+          (reference "Q32") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "Q69") (unit 1)
+          (reference "Q35") (unit 1)
         )
       )
     )
@@ -1592,7 +1625,7 @@
   (symbol (lib_id "Device:R_US") (at 125.73 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a470d480-84ec-48a7-8a95-3654ee476f5d)
-    (property "Reference" "R221" (at 128.27 85.725 0)
+    (property "Reference" "R131" (at 128.27 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 128.27 88.265 0)
@@ -1604,7 +1637,10 @@
     (property "Datasheet" "~" (at 125.73 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 125.73 86.36 0)
+    (property "Mfr. Part No" "RMCF0402FT10K0" (at 125.73 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics" (at 125.73 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 853c3e2d-aef2-4618-bbe3-ad75388f603a))
@@ -1612,10 +1648,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R221") (unit 1)
+          (reference "R131") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "R265") (unit 1)
+          (reference "R145") (unit 1)
         )
       )
     )
@@ -1624,7 +1660,7 @@
   (symbol (lib_id "SierraLobo:INA300xQ1-DGS") (at 85.09 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4fd7898-c13d-455b-97b3-020a0105d926)
-    (property "Reference" "U34" (at 85.09 80.01 0)
+    (property "Reference" "U18" (at 85.09 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA300AIDSQT" (at 85.09 82.55 0)
@@ -1637,6 +1673,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "INA300AIDSQT" (at 85.09 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay Siliconix" (at 85.09 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d2cfaf3-d54b-454f-a117-9dfac98798b1))
@@ -1653,10 +1692,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "U34") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "U38") (unit 1)
+          (reference "U21") (unit 1)
         )
       )
     )
@@ -1665,7 +1704,7 @@
   (symbol (lib_id "SierraLobo:R_Network_04_US_Split") (at 115.57 86.36 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1f89c27-5d1b-4cb1-bda4-82de8be18158)
-    (property "Reference" "RN7" (at 118.11 85.725 0)
+    (property "Reference" "RN5" (at 118.11 85.725 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 118.11 88.265 0)
@@ -1680,6 +1719,9 @@
     (property "Mfr. Part No" "RAVF164DJT1K00" (at 115.57 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Stackpole Electronics" (at 115.57 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b82f4761-b645-42d6-9f12-d4f0b58f84b0))
     (pin "8" (uuid 864937ec-101c-4622-9c27-f89ff1280d04))
     (pin "2" (uuid ca7ec013-2bf4-452a-a018-89cd3acc9ac0))
@@ -1691,10 +1733,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN7") (unit 2)
+          (reference "RN5") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN8") (unit 2)
+          (reference "RN6") (unit 2)
         )
       )
     )
@@ -1725,10 +1767,10 @@
           (reference "#PWR0121") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#PWR0192") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -1737,7 +1779,7 @@
   (symbol (lib_id "SierraLobo:R_Network_04_US_Split") (at 101.6 86.36 90) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c654ac1a-20f4-4e9c-8b97-4e16bc008075)
-    (property "Reference" "RN7" (at 100.33 85.09 90)
+    (property "Reference" "RN5" (at 100.33 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 105.41 85.09 90)
@@ -1752,6 +1794,9 @@
     (property "Mfr. Part No" "RAVF164DJT1K00" (at 101.6 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Stackpole Electronics" (at 101.6 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c2942acb-c343-447b-b547-b54737479a81))
     (pin "8" (uuid a890fe53-e090-4d90-800e-1ce34ac4894d))
     (pin "2" (uuid e2e50fa4-086a-4aa8-9ff8-5abf8ee028bb))
@@ -1763,10 +1808,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN7") (unit 4)
+          (reference "RN5") (unit 4)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN8") (unit 4)
+          (reference "RN6") (unit 4)
         )
       )
     )
@@ -1797,10 +1842,10 @@
           (reference "#PWR0121") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -1818,10 +1863,13 @@
     (property "Footprint" "SierraLobo:PG-TSDSON-8_3.3x3.3mm" (at 232.41 50.673 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 232.41 41.91 0)
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSZ180P03NS3_G-DS-v02_01-en.pdf?fileId=db3a304326dfb13001271f04398f4ec1" (at 232.41 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "BSZ180P03NS3GATMA1" (at 231.14 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Infineon" (at 231.14 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 69d3279b-03f7-4f8f-9ccf-0cce4a8f4402))
@@ -1833,10 +1881,10 @@
           (reference "Q59") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "Q50") (unit 1)
+          (reference "Q31") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "Q68") (unit 1)
+          (reference "Q34") (unit 1)
         )
       )
     )
@@ -1845,7 +1893,7 @@
   (symbol (lib_id "SierraLobo:R_Network_04_US_Split") (at 101.6 90.17 90) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dca053b3-67c8-4a63-bdd5-39b006de61c5)
-    (property "Reference" "RN7" (at 100.33 88.9 90)
+    (property "Reference" "RN5" (at 100.33 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 105.41 88.9 90)
@@ -1860,6 +1908,9 @@
     (property "Mfr. Part No" "RAVF164DJT1K00" (at 101.6 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Stackpole Electronics" (at 101.6 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 54a86936-e7aa-449e-9ec0-b137026be91f))
     (pin "8" (uuid 9dde7408-10cc-4e34-afe5-2a5272a0ff9a))
     (pin "2" (uuid 094658da-06bf-44d9-bfc6-7c5de4d7f932))
@@ -1871,10 +1922,10 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e8ea383f-c455-4d7b-919b-f163579151f6/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN7") (unit 3)
+          (reference "RN5") (unit 3)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/53885b8c-c161-44ce-91a5-b0138f84f00b/85bb4555-d695-4644-80ca-b3678055f7ba"
-          (reference "RN8") (unit 3)
+          (reference "RN6") (unit 3)
         )
       )
     )

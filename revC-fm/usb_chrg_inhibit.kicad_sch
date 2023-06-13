@@ -633,10 +633,13 @@
     (property "Footprint" "SierraLobo:PG-TSDSON-8_3.3x3.3mm" (at 157.48 73.533 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 157.48 64.77 0)
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSZ180P03NS3_G-DS-v02_01-en.pdf?fileId=db3a304326dfb13001271f04398f4ec1" (at 157.48 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "BSZ180P03NS3GATMA1" (at 158.75 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Infineon" (at 158.75 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fe690eb0-f130-4a3b-9395-a58bca81cd21))
@@ -654,7 +657,7 @@
           (reference "Q75") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "Q8") (unit 1)
+          (reference "Q11") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "Q13") (unit 1)
@@ -694,7 +697,7 @@
           (reference "#PWR0192") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "#PWR0196") (unit 1)
@@ -718,7 +721,10 @@
     (property "Datasheet" "~" (at 176.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 176.53 85.09 0)
+    (property "Mfr. Part No" "ERJ-2GEJ102X" (at 176.53 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic" (at 176.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 58b35ad7-9bcb-4ef6-a2cc-990fdb09ceb5))
@@ -735,7 +741,7 @@
           (reference "R278") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R64") (unit 1)
+          (reference "R89") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R91") (unit 1)
@@ -762,6 +768,9 @@
     (property "Mfr. Part No" "MMDT3946-7-F" (at 156.21 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Diodes Incorporated" (at 156.21 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3b5d7d85-1db6-473e-bcf3-288f2f74b400))
     (pin "2" (uuid 71c4c12f-659c-43d1-b462-0a244251f10b))
     (pin "6" (uuid 6b46e3d9-b62b-4d03-b9e9-780432799c3d))
@@ -780,7 +789,7 @@
           (reference "Q76") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "Q10") (unit 1)
+          (reference "Q13") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "Q16") (unit 1)
@@ -804,7 +813,10 @@
     (property "Datasheet" "~" (at 158.75 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 158.75 85.09 0)
+    (property "Mfr. Part No" "ERJ-2GEJ102X" (at 158.75 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic" (at 158.75 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 52bfc192-41fa-4901-b18e-19eabc0e8e93))
@@ -821,7 +833,7 @@
           (reference "R277") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R63") (unit 1)
+          (reference "R88") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R84") (unit 1)
@@ -845,7 +857,10 @@
     (property "Datasheet" "~" (at 146.05 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 146.05 105.41 0)
+    (property "Mfr. Part No" "RMCF0402FT100K" (at 146.05 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics" (at 146.05 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 43a25f89-45ba-43dd-beec-a61205bc9231))
@@ -862,7 +877,7 @@
           (reference "R280") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R66") (unit 1)
+          (reference "R90") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R93") (unit 1)
@@ -886,7 +901,10 @@
     (property "Datasheet" "~" (at 176.53 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 176.53 105.41 0)
+    (property "Mfr. Part No" "CGA2B3X7R1H104K050BE" (at 176.53 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "TDK" (at 176.53 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aeda395c-de11-4d76-995f-893d5cc8318b))
@@ -906,7 +924,7 @@
           (reference "C136") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "C53") (unit 1)
+          (reference "C55") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "C72") (unit 1)
@@ -927,10 +945,13 @@
     (property "Footprint" "SierraLobo:PG-TSDSON-8_3.3x3.3mm" (at 177.8 73.533 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 177.8 64.77 0)
+    (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSZ180P03NS3_G-DS-v02_01-en.pdf?fileId=db3a304326dfb13001271f04398f4ec1" (at 177.8 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "BSZ180P03NS3GATMA1" (at 176.53 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Infineon" (at 176.53 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b5805a30-8baf-4b99-ac7b-6584a9d2668e))
@@ -948,7 +969,7 @@
           (reference "Q64") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "Q9") (unit 1)
+          (reference "Q12") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "Q15") (unit 1)
@@ -972,6 +993,12 @@
     (property "Datasheet" "~" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Stackpole Electronics" (at 167.64 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr. Part No" "RMCF0603ZT0R00" (at 167.64 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f7e07352-f711-48dc-be09-8b618befd007))
     (pin "2" (uuid eb9a3a3a-7d68-4dce-942c-21abd86d3596))
     (instances
@@ -986,7 +1013,7 @@
           (reference "R279") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R62") (unit 1)
+          (reference "R87") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R83") (unit 1)
@@ -1010,7 +1037,10 @@
     (property "Datasheet" "~" (at 167.64 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 167.64 105.41 0)
+    (property "Mfr. Part No" "RMCF0402FT1M00" (at 167.64 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Stackpole Electronics" (at 167.64 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d262cdae-3486-482a-acb3-0261cdbdaba2))
@@ -1027,7 +1057,7 @@
           (reference "R280") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R65") (unit 1)
+          (reference "R91") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R92") (unit 1)
@@ -1054,6 +1084,9 @@
     (property "Mfr. Part No" "MMDT3946-7-F" (at 156.21 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Diodes Incorporated" (at 156.21 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d789f77e-317c-4c33-8765-951d469f76fd))
     (pin "2" (uuid 45b60a0e-5904-48d2-afca-b47cb933e018))
     (pin "6" (uuid 3c4444a5-056a-4f99-992e-3db8dae5a966))
@@ -1072,7 +1105,7 @@
           (reference "Q76") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "Q10") (unit 2)
+          (reference "Q13") (unit 2)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "Q16") (unit 2)

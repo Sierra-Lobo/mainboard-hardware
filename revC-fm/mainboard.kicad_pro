@@ -561,7 +561,7 @@
       "idf": "",
       "netlist": "mainboard.net",
       "specctra_dsn": "",
-      "step": "mainboard.step",
+      "step": "docs/mainboard.step",
       "vrml": "mainboard.wrl"
     },
     "page_layout_descr_file": ""
@@ -600,7 +600,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "pdf/",
+    "plot_directory": "docs/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
