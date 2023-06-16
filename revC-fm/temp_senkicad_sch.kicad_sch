@@ -356,7 +356,7 @@
   (symbol (lib_id "power:GND") (at 148.59 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ecfe786-054c-4baa-8bd1-9024106e6fbe)
-    (property "Reference" "#PWR0175" (at 148.59 110.49 0)
+    (property "Reference" "#PWR0180" (at 148.59 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 107.95 0)
@@ -372,16 +372,16 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
-          (reference "#PWR0175") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/795619f3-8bd8-4f29-a923-296e7ed8459e"
-          (reference "#PWR0177") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/e299339d-e625-4f2c-804c-bf3cf31a6799"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/ea7f9fd6-aeb6-4ec9-906e-e84511ddb647"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -390,7 +390,7 @@
   (symbol (lib_id "Device:R_US") (at 109.22 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c772413-f087-4ded-880d-27e8564eb41a)
-    (property "Reference" "R251" (at 109.22 91.44 90)
+    (property "Reference" "R261" (at 109.22 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 109.22 93.98 90)
@@ -408,21 +408,24 @@
     (property "Manufacturer" "Stackpole Electronics" (at 109.22 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES 220 OHM 1% 1/10W 0603" (at 109.22 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e6b43a62-5eeb-4053-b845-a9d1c7317b07))
     (pin "2" (uuid 5e43d5f1-c988-4c18-adb6-23bcc1b27a3c))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
-          (reference "R251") (unit 1)
+          (reference "R261") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/795619f3-8bd8-4f29-a923-296e7ed8459e"
-          (reference "R252") (unit 1)
+          (reference "R262") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/e299339d-e625-4f2c-804c-bf3cf31a6799"
-          (reference "R253") (unit 1)
+          (reference "R263") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/ea7f9fd6-aeb6-4ec9-906e-e84511ddb647"
-          (reference "R254") (unit 1)
+          (reference "R264") (unit 1)
         )
       )
     )
@@ -447,6 +450,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Microchip Technology" (at 129.54 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "SENSOR ANALOG -40C-125C SC70-5" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1bbe39b5-80e5-4c32-9494-7aa69a6519e8))
@@ -475,7 +481,7 @@
   (symbol (lib_id "power:GND") (at 129.54 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3418ad83-7a42-4173-b511-335796196714)
-    (property "Reference" "#PWR0174" (at 129.54 110.49 0)
+    (property "Reference" "#PWR0179" (at 129.54 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 107.95 0)
@@ -491,16 +497,16 @@
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/795619f3-8bd8-4f29-a923-296e7ed8459e"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/e299339d-e625-4f2c-804c-bf3cf31a6799"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/ea7f9fd6-aeb6-4ec9-906e-e84511ddb647"
-          (reference "#PWR0180") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -509,7 +515,7 @@
   (symbol (lib_id "Device:C") (at 148.59 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43722557-a066-46aa-bb71-55f1f83d2a5a)
-    (property "Reference" "C113" (at 140.97 99.06 0)
+    (property "Reference" "C114" (at 140.97 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 140.97 101.6 0)
@@ -527,21 +533,24 @@
     (property "Manufacturer" "TDK" (at 148.59 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "CAP CER 0.1UF 50V X7R 0402" (at 148.59 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b52972d9-9e00-40d0-a62b-6a7ee27e8f1d))
     (pin "2" (uuid 44112b51-0262-44c0-b959-2d0c6c977c0b))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
-          (reference "C113") (unit 1)
+          (reference "C114") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/795619f3-8bd8-4f29-a923-296e7ed8459e"
-          (reference "C115") (unit 1)
+          (reference "C116") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/e299339d-e625-4f2c-804c-bf3cf31a6799"
-          (reference "C117") (unit 1)
+          (reference "C118") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/ea7f9fd6-aeb6-4ec9-906e-e84511ddb647"
-          (reference "C119") (unit 1)
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -550,7 +559,7 @@
   (symbol (lib_id "Device:C") (at 118.11 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc0d3513-8c1e-4cb2-a526-b3f2c97d87d7)
-    (property "Reference" "C112" (at 111.76 95.25 0)
+    (property "Reference" "C113" (at 111.76 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 111.76 97.79 0)
@@ -568,21 +577,24 @@
     (property "Manufacturer" "TDK" (at 118.11 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "CAP CER 1UF 35V X7R 0603" (at 118.11 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 733954ab-df66-4bd4-8bd3-da434092813b))
     (pin "2" (uuid 53e4650b-a226-4934-a009-3564d9880da8))
     (instances
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/8821f222-8792-4e4d-9d02-2f4e81ef493f"
-          (reference "C112") (unit 1)
+          (reference "C113") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/795619f3-8bd8-4f29-a923-296e7ed8459e"
-          (reference "C114") (unit 1)
+          (reference "C115") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/e299339d-e625-4f2c-804c-bf3cf31a6799"
-          (reference "C116") (unit 1)
+          (reference "C117") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/cda1ad7d-3729-4e28-9f04-75ded2a9befd/ea7f9fd6-aeb6-4ec9-906e-e84511ddb647"
-          (reference "C118") (unit 1)
+          (reference "C119") (unit 1)
         )
       )
     )

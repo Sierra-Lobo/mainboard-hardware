@@ -335,6 +335,9 @@
     (property "Manufacturer" "Stackpole Electronics" (at 135.89 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES 0 OHM JUMPER 1/10W 0603" (at 135.89 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 34017342-7806-4426-888d-f907989b24b2))
     (pin "2" (uuid cbba6271-7d5b-4bca-8b1a-f33779651415))
     (instances
@@ -343,16 +346,16 @@
           (reference "R145") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/0be551f5-4cd0-4099-afa0-41f5d887dd91"
-          (reference "R200") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
-          (reference "R205") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
           (reference "R210") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
           (reference "R215") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
+          (reference "R220") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+          (reference "R225") (unit 1)
         )
       )
     )
@@ -377,6 +380,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Diodes Incorporated" (at 135.89 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "TRANS PNP 40V 0.2A SOT523" (at 135.89 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c1e24aae-489b-4f8a-a27e-32bb9278b803))
@@ -424,6 +430,9 @@
     (property "Manufacturer" "Stackpole Electronics" (at 125.73 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES 4.7K OHM 1% 1/16W 0402" (at 125.73 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2323e5bd-f76f-42d5-940b-102b26c9ca52))
     (pin "2" (uuid 17a1509b-6c29-4935-94fd-2ad0b7449227))
     (instances
@@ -432,16 +441,16 @@
           (reference "R92") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/0be551f5-4cd0-4099-afa0-41f5d887dd91"
-          (reference "R197") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
-          (reference "R202") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
           (reference "R207") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
           (reference "R212") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
+          (reference "R217") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+          (reference "R222") (unit 1)
         )
       )
     )
@@ -468,6 +477,9 @@
     (property "Manufacturer" "Panasonic" (at 135.89 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES SMD 1K OHM 5% 1/10W 0402" (at 135.89 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 88501cf9-2ca7-489d-a401-6b34e2a5669e))
     (pin "2" (uuid 891a48a0-3ad8-460b-bb18-bd9acc12c87b))
     (instances
@@ -476,16 +488,16 @@
           (reference "R98") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/0be551f5-4cd0-4099-afa0-41f5d887dd91"
-          (reference "R199") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
-          (reference "R204") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
           (reference "R209") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
           (reference "R214") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
+          (reference "R219") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+          (reference "R224") (unit 1)
         )
       )
     )
@@ -512,6 +524,9 @@
     (property "Manufacturer" "Stackpole Electronics" (at 146.05 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES 0 OHM JUMPER 1/10W 0603" (at 146.05 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f72f2c94-20e2-4392-b7ed-0d3e60348bd9))
     (pin "2" (uuid f29749ee-32c7-4964-8d2c-d5091bdc5ed0))
     (instances
@@ -520,16 +535,16 @@
           (reference "R97") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/0be551f5-4cd0-4099-afa0-41f5d887dd91"
-          (reference "R196") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
-          (reference "R201") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
           (reference "R206") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
           (reference "R211") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
+          (reference "R216") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+          (reference "R221") (unit 1)
         )
       )
     )
@@ -556,6 +571,9 @@
     (property "Manufacturer" "Panasonic" (at 135.89 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES SMD 1K OHM 5% 1/10W 0402" (at 135.89 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e6fc056e-7424-4df3-9898-dd460526709f))
     (pin "2" (uuid 22eacf67-ce39-46a9-80e3-5bc9e69c0faa))
     (instances
@@ -564,16 +582,16 @@
           (reference "R91") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/0be551f5-4cd0-4099-afa0-41f5d887dd91"
-          (reference "R198") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
-          (reference "R203") (unit 1)
-        )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
           (reference "R208") (unit 1)
         )
-        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
           (reference "R213") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
+          (reference "R218") (unit 1)
+        )
+        (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
+          (reference "R223") (unit 1)
         )
       )
     )

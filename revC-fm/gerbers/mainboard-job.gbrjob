@@ -5,24 +5,21 @@
       "Application": "Pcbnew",
       "Version": "7.0.1"
     },
-    "CreationDate": "2023-06-13T18:19:15-04:00"
+    "CreationDate": "2023-06-16T12:25:42-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "mainboard",
       "GUID": "6d61696e-626f-4617-9264-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "C"
     },
     "Size": {
       "X": 90.3,
       "Y": 101.2699
     },
     "LayerNumber": 8,
-    "BoardThickness": 1.71,
-    "Finish": "ENIG",
-    "ImpedanceControlled": true,
-    "EdgeConnector": true,
-    "EdgeConnectorBevelled": true
+    "BoardThickness": 1.6619,
+    "Finish": "None"
   },
   "DesignRules": [
     {
@@ -30,7 +27,7 @@
       "PadToPad": 0.1524,
       "PadToTrack": 0.1524,
       "TrackToTrack": 0.1524,
-      "MinLineWidth": 0.1524,
+      "MinLineWidth": 0.141,
       "TrackToRegion": 0.1524,
       "RegionToRegion": 0.1524
     },
@@ -39,9 +36,9 @@
       "PadToPad": 0.1524,
       "PadToTrack": 0.1524,
       "TrackToTrack": 0.1524,
-      "MinLineWidth": 0.2032,
-      "TrackToRegion": 0.2032,
-      "RegionToRegion": 0.2032
+      "MinLineWidth": 0.1626,
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
     }
   ],
   "FilesAttributes": [
@@ -129,123 +126,109 @@
     {
       "Type": "SolderMask",
       "Color": "Green",
-      "Thickness": 0.01,
+      "Thickness": 0.0127,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0368,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.18,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.0927,
+      "Material": "Polyimide",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0178,
       "Name": "In1.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.23,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.1016,
+      "Material": "Polyimide",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0178,
       "Name": "In2.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.18,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.1782,
+      "Material": "Polyimide",
       "Name": "In2.Cu/In3.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0178,
       "Name": "In3.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.23,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.7112,
+      "Material": "Polyimide",
       "Name": "In3.Cu/In4.Cu",
       "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0178,
       "Name": "In4.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.18,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.1782,
+      "Material": "Polyimide",
       "Name": "In4.Cu/In5.Cu",
       "Notes": "Type: dielectric layer 5 (from In4.Cu to In5.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0178,
       "Name": "In5.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.23,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.1016,
+      "Material": "Polyimide",
       "Name": "In5.Cu/In6.Cu",
       "Notes": "Type: dielectric layer 6 (from In5.Cu to In6.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0178,
       "Name": "In6.Cu"
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.18,
-      "Material": "SH260",
-      "DielectricConstant": "4.12",
-      "LossTangent": "0.007",
+      "Color": "R205G130B0",
+      "Thickness": 0.0927,
+      "Material": "Polyimide",
       "Name": "In6.Cu/B.Cu",
       "Notes": "Type: dielectric layer 7 (from In6.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0368,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
       "Color": "Green",
-      "Thickness": 0.01,
+      "Thickness": 0.0127,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -1,0 +1,52 @@
+PCB statistics report
+=====================
+- Date: 6/16/2023 3:21:21 AM
+- Project: mainboard
+- Board name: mainboard
+
+Board
+-----
+- Width: 3550.00 mils
+- Height: 3982.00 mils
+- Area: 13562121.84 mils²
+
+Pads
+----
+- Through hole: 29
+- SMD: 2354
+- Connector: 0
+- NPTH: 4
+
+Vias
+----
+- Through vias: 1130
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |         11 |         7 |    18 |
+|SMD:          |        329 |       292 |   621 |
+|Unspecified:  |          5 |         0 |     5 |
+|Total:        |        345 |       299 |   644 |
+
+Drill holes
+-----------
+
+| Count | Shape |      X Size |      Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-------------|-------------|--------|---------|-------------|------------|
+|   768 | Round |   6.00 mils |   6.00 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|   358 | Round |  12.00 mils |  12.00 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|    12 | Round |  29.92 mils |  29.92 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     5 | Round |  51.00 mils |  51.00 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     5 | Round |  36.00 mils |  36.00 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 125.00 mils | 125.00 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     3 | Round |  32.52 mils |  32.52 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     3 | Round |  10.00 mils |  10.00 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|     2 | Round |  27.56 mils |  27.56 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round |  51.18 mils |  51.18 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round |  39.37 mils |  39.37 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round |   8.00 mils |   8.00 mils |    PTH |     Via |        F.Cu |       B.Cu |

@@ -516,10 +516,6 @@
     (stroke (width 0) (type default))
     (uuid 52242e56-e746-40ca-b663-3657ed25e115)
   )
-  (wire (pts (xy 100.33 73.66) (xy 146.05 73.66))
-    (stroke (width 0) (type default))
-    (uuid 5767e06e-2b31-49f6-8d28-4f955d3b2afc)
-  )
   (wire (pts (xy 158.75 114.3) (xy 167.64 114.3))
     (stroke (width 0) (type default))
     (uuid 77f99b3c-32aa-4eff-bbba-77d869bf40de)
@@ -584,6 +580,10 @@
     (stroke (width 0) (type default))
     (uuid e70cee64-b96a-4e13-a361-12ea516d8b5b)
   )
+  (wire (pts (xy 100.33 73.66) (xy 146.05 73.66))
+    (stroke (width 0) (type default))
+    (uuid ebc8ea0f-e265-407f-beb0-af7cd7d7daa1)
+  )
   (wire (pts (xy 167.64 73.66) (xy 167.64 78.74))
     (stroke (width 0) (type default))
     (uuid ec58b624-1f63-4f94-b04f-ff8d30a32a57)
@@ -642,6 +642,9 @@
     (property "Manufacturer" "Infineon" (at 158.75 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "MOSFET P-CH 30V 9A/39.6A TSDSON" (at 158.75 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fe690eb0-f130-4a3b-9395-a58bca81cd21))
     (pin "4" (uuid 2c0e06f4-5b72-4e80-bdf8-3510b5250359))
     (pin "5" (uuid 0da0ad19-707d-4f60-9f96-a0009b9dd6a9))
@@ -697,7 +700,7 @@
           (reference "#PWR0192") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "#PWR0196") (unit 1)
@@ -727,6 +730,9 @@
     (property "Manufacturer" "Panasonic" (at 176.53 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES SMD 1K OHM 5% 1/10W 0402" (at 176.53 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 58b35ad7-9bcb-4ef6-a2cc-990fdb09ceb5))
     (pin "2" (uuid 7c0e8790-4002-4251-8cac-5b462789d999))
     (instances
@@ -741,7 +747,7 @@
           (reference "R278") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R89") (unit 1)
+          (reference "R93") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R91") (unit 1)
@@ -769,6 +775,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Diodes Incorporated" (at 156.21 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "TRANS NPN/PNP 40V 0.2A SOT363" (at 156.21 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3b5d7d85-1db6-473e-bcf3-288f2f74b400))
@@ -819,6 +828,9 @@
     (property "Manufacturer" "Panasonic" (at 158.75 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES SMD 1K OHM 5% 1/10W 0402" (at 158.75 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 52bfc192-41fa-4901-b18e-19eabc0e8e93))
     (pin "2" (uuid 6f95bda4-a83c-4bb8-980c-53e0f2558a2f))
     (instances
@@ -833,7 +845,7 @@
           (reference "R277") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R88") (unit 1)
+          (reference "R92") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R84") (unit 1)
@@ -863,6 +875,9 @@
     (property "Manufacturer" "Stackpole Electronics" (at 146.05 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES 100K OHM 1% 1/16W 0402" (at 146.05 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 43a25f89-45ba-43dd-beec-a61205bc9231))
     (pin "2" (uuid 582e3e20-5af2-454e-ae9b-ecb5d2dec8e2))
     (instances
@@ -877,7 +892,7 @@
           (reference "R280") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R90") (unit 1)
+          (reference "R94") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R93") (unit 1)
@@ -907,6 +922,9 @@
     (property "Manufacturer" "TDK" (at 176.53 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "CAP CER 0.1UF 50V X7R 0402" (at 176.53 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid aeda395c-de11-4d76-995f-893d5cc8318b))
     (pin "2" (uuid 97bb7785-6ff4-4bce-81bd-60ad648348ae))
     (instances
@@ -924,7 +942,7 @@
           (reference "C136") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "C55") (unit 1)
+          (reference "C56") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "C72") (unit 1)
@@ -952,6 +970,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Infineon" (at 176.53 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MOSFET P-CH 30V 9A/39.6A TSDSON" (at 176.53 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b5805a30-8baf-4b99-ac7b-6584a9d2668e))
@@ -999,6 +1020,9 @@
     (property "Mfr. Part No" "RMCF0603ZT0R00" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "RES 0 OHM JUMPER 1/10W 0603" (at 167.64 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f7e07352-f711-48dc-be09-8b618befd007))
     (pin "2" (uuid eb9a3a3a-7d68-4dce-942c-21abd86d3596))
     (instances
@@ -1013,7 +1037,7 @@
           (reference "R279") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R87") (unit 1)
+          (reference "R91") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R83") (unit 1)
@@ -1028,7 +1052,7 @@
     (property "Reference" "R57" (at 165.9128 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1Meg" (at 165.9128 106.553 0)
+    (property "Value" "220k" (at 165.9128 106.553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 166.624 105.664 90)
@@ -1037,10 +1061,13 @@
     (property "Datasheet" "~" (at 167.64 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "RMCF0402FT1M00" (at 167.64 105.41 0)
+    (property "Mfr. Part No" "RMCF0402FT220K" (at 167.64 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Stackpole Electronics" (at 167.64 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES 220K OHM 1% 1/16W 0402" (at 167.64 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d262cdae-3486-482a-acb3-0261cdbdaba2))
@@ -1057,7 +1084,7 @@
           (reference "R280") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/4c3121c8-bd10-459a-a6ea-38d5e9e20bca"
-          (reference "R91") (unit 1)
+          (reference "R95") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/185dd961-1d17-4f06-b36f-81ebbaab9526"
           (reference "R92") (unit 1)
@@ -1085,6 +1112,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Diodes Incorporated" (at 156.21 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "TRANS NPN/PNP 40V 0.2A SOT363" (at 156.21 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d789f77e-317c-4c33-8765-951d469f76fd))
