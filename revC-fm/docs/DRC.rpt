@@ -1,0 +1,332 @@
+** Drc report for C:/Users/cjhillis/Documents/LOCAL/Github/mainboard-hardware/revC-fm/mainboard.kicad_pcb **
+** Created on 2023-06-16 15:27:41 **
+
+** Found 83 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2387.09 mils, 5402.20 mils): Pad 3 [unconnected-(U24-GPIO_3-Pad3)] of U24 on F.Cu
+    @(2473.74 mils, 5401.89 mils): Pad 11 [unconnected-(U25-DIO3-Pad11)] of U25 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2387.09 mils, 5717.17 mils): Pad 7 [unconnected-(U24-GPIO_1-Pad7)] of U24 on F.Cu
+    @(2473.74 mils, 5716.85 mils): Pad 15 [unconnected-(U25-DIO1-Pad15)] of U25 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2387.09 mils, 5795.91 mils): Pad 8 [unconnected-(U24-GPIO_2-Pad8)] of U24 on F.Cu
+    @(2473.74 mils, 5795.59 mils): Pad 16 [unconnected-(U25-DIO2-Pad16)] of U25 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(5181.48 mils, 4959.69 mils): Pad 9 [Net-(U20-L2)] of U20 on F.Cu
+    @(5174.59 mils, 4940.00 mils): Pad 10 [GND] of U20 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(5174.59 mils, 4940.00 mils): Pad 10 [GND] of U20 on F.Cu
+    @(5181.48 mils, 4920.31 mils): Pad 11 [Net-(U20-L1)] of U20 on F.Cu
+[clearance]: Clearance violation (netclass '90ohm diff' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass '90ohm diff'; Severity: error
+    @(3187.49 mils, 4045.88 mils): Pad 73 [WDT_WDI] of U7 on F.Cu
+    @(3173.57 mils, 4059.80 mils): Pad 74 [USB_D-] of U7 on F.Cu
+[clearance]: Clearance violation (netclass '90ohm diff' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass '90ohm diff'; Severity: error
+    @(3173.57 mils, 4059.80 mils): Pad 74 [USB_D-] of U7 on F.Cu
+    @(3159.65 mils, 4073.72 mils): Pad 75 [USB_D+] of U7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2893.11 mils, 3647.64 mils): Pad 1 [Net-(BT1-+)] of U5 on F.Cu
+    @(2877.36 mils, 3647.64 mils): Pad 2 [Net-(U5-X1)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2877.36 mils, 3647.64 mils): Pad 2 [Net-(U5-X1)] of U5 on F.Cu
+    @(2861.61 mils, 3647.64 mils): Pad 3 [Net-(U5-X2)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2861.61 mils, 3647.64 mils): Pad 3 [Net-(U5-X2)] of U5 on F.Cu
+    @(2845.87 mils, 3647.64 mils): Pad 4 [unconnected-(U5-~{INT0}-Pad4)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2845.87 mils, 3647.64 mils): Pad 4 [unconnected-(U5-~{INT0}-Pad4)] of U5 on F.Cu
+    @(2830.12 mils, 3647.64 mils): Pad 5 [unconnected-(U5-NC-Pad5)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2830.12 mils, 3647.64 mils): Pad 5 [unconnected-(U5-NC-Pad5)] of U5 on F.Cu
+    @(2814.37 mils, 3647.64 mils): Pad 6 [unconnected-(U5-~{INT1}-Pad6)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2814.37 mils, 3647.64 mils): Pad 6 [unconnected-(U5-~{INT1}-Pad6)] of U5 on F.Cu
+    @(2798.62 mils, 3647.64 mils): Pad 7 [GND] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2798.62 mils, 3763.78 mils): Pad 8 [Net-(U5-CE)] of U5 on F.Cu
+    @(2814.37 mils, 3763.78 mils): Pad 9 [SCK_RTC] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2814.37 mils, 3763.78 mils): Pad 9 [SCK_RTC] of U5 on F.Cu
+    @(2830.12 mils, 3763.78 mils): Pad 10 [MOSI_RTC] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2830.12 mils, 3763.78 mils): Pad 10 [MOSI_RTC] of U5 on F.Cu
+    @(2845.87 mils, 3763.78 mils): Pad 11 [MISO_RTC] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2845.87 mils, 3763.78 mils): Pad 11 [MISO_RTC] of U5 on F.Cu
+    @(2861.61 mils, 3763.78 mils): Pad 12 [unconnected-(U5-~{PF}-Pad12)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2861.61 mils, 3763.78 mils): Pad 12 [unconnected-(U5-~{PF}-Pad12)] of U5 on F.Cu
+    @(2877.36 mils, 3763.78 mils): Pad 13 [Net-(U5-SERMODE)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2877.36 mils, 3763.78 mils): Pad 13 [Net-(U5-SERMODE)] of U5 on F.Cu
+    @(2893.11 mils, 3763.78 mils): Pad 14 [3.3V] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3639.53 mils, 3005.31 mils): Pad 1 [Net-(U3-A8)] of RN6 on F.Cu
+    @(3619.84 mils, 3005.31 mils): Pad 2 [Net-(U3-A7)] of RN6 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3600.16 mils, 3005.31 mils): Pad 3 [Net-(U3-A6)] of RN6 on F.Cu
+    @(3580.47 mils, 3005.31 mils): Pad 4 [Net-(U3-A5)] of RN6 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4045.28 mils, 4645.67 mils): Pad 1 [MUX2_EN] of RN10 on F.Cu
+    @(4045.28 mils, 4665.35 mils): Pad 2 [MUX2_C] of RN10 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4045.28 mils, 4685.04 mils): Pad 3 [MUX2_B] of RN10 on F.Cu
+    @(4045.28 mils, 4704.72 mils): Pad 4 [MUX2_A] of RN10 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4084.65 mils, 4704.72 mils): Pad 5 [Net-(U31-A)] of RN10 on F.Cu
+    @(4084.65 mils, 4685.04 mils): Pad 6 [Net-(U31-B)] of RN10 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4084.65 mils, 4665.35 mils): Pad 7 [Net-(U31-C)] of RN10 on F.Cu
+    @(4084.65 mils, 4645.67 mils): Pad 8 [Net-(U31-EN)] of RN10 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3171.88 mils, 2905.31 mils): Pad 1 [Net-(U2-A4)] of RN1 on F.Cu
+    @(3152.19 mils, 2905.31 mils): Pad 2 [Net-(U2-A3)] of RN1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3132.51 mils, 2905.31 mils): Pad 3 [Net-(U2-A2)] of RN1 on F.Cu
+    @(3112.82 mils, 2905.31 mils): Pad 4 [Net-(U2-A1)] of RN1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3112.82 mils, 2944.69 mils): Pad 5 [MOSI] of RN1 on F.Cu
+    @(3132.51 mils, 2944.69 mils): Pad 6 [SCK] of RN1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3152.19 mils, 2944.69 mils): Pad 7 [TX_MCU_2] of RN1 on F.Cu
+    @(3171.88 mils, 2944.69 mils): Pad 8 [TX_MCU_3] of RN1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3255.63 mils, 2519.69 mils): Pad 5 [unconnected-(RN2-Pad5)] of RN2 on F.Cu
+    @(3275.31 mils, 2519.69 mils): Pad 6 [Net-(U2-B6)] of RN2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3295.00 mils, 2519.69 mils): Pad 7 [Net-(U2-B7)] of RN2 on F.Cu
+    @(3314.69 mils, 2519.69 mils): Pad 8 [Net-(U2-B8)] of RN2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3276.88 mils, 2905.31 mils): Pad 1 [Net-(U2-A8)] of RN3 on F.Cu
+    @(3257.19 mils, 2905.31 mils): Pad 2 [Net-(U2-A7)] of RN3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3237.51 mils, 2905.31 mils): Pad 3 [Net-(U2-A6)] of RN3 on F.Cu
+    @(3217.82 mils, 2905.31 mils): Pad 4 [Net-(U2-A5)] of RN3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3217.82 mils, 2944.69 mils): Pad 5 [TX_MCU_4] of RN3 on F.Cu
+    @(3237.51 mils, 2944.69 mils): Pad 6 [GND] of RN3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4045.28 mils, 4823.15 mils): Pad 1 [unconnected-(RN9-Pad1)] of RN9 on F.Cu
+    @(4045.28 mils, 4842.83 mils): Pad 2 [MUX1_EN] of RN9 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4045.28 mils, 4862.52 mils): Pad 3 [MUX1_B] of RN9 on F.Cu
+    @(4045.28 mils, 4882.20 mils): Pad 4 [MUX1_A] of RN9 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4084.65 mils, 4882.20 mils): Pad 5 [Net-(U30-A)] of RN9 on F.Cu
+    @(4084.65 mils, 4862.52 mils): Pad 6 [Net-(U30-B)] of RN9 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4084.65 mils, 4842.83 mils): Pad 7 [Net-(U30-EN)] of RN9 on F.Cu
+    @(4084.65 mils, 4823.15 mils): Pad 8 [unconnected-(RN9-Pad8)] of RN9 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(5180.51 mils, 5504.53 mils): Pad 9 [Net-(U17-L2)] of U17 on F.Cu
+    @(5173.62 mils, 5484.84 mils): Pad 10 [GND] of U17 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(5173.62 mils, 5484.84 mils): Pad 10 [GND] of U17 on F.Cu
+    @(5180.51 mils, 5465.16 mils): Pad 11 [Net-(U17-L1)] of U17 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4539.69 mils, 5304.37 mils): Pad 1 [Net-(U18-HYS)] of RN7 on F.Cu
+    @(4539.69 mils, 5284.69 mils): Pad 2 [Net-(U18-DELAY)] of RN7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4539.69 mils, 5265.00 mils): Pad 3 [Net-(U18-LATCH)] of RN7 on F.Cu
+    @(4539.69 mils, 5245.31 mils): Pad 4 [Net-(U18-EN)] of RN7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4500.31 mils, 5245.31 mils): Pad 5 [5VSYS_EN] of RN7 on F.Cu
+    @(4500.31 mils, 5265.00 mils): Pad 6 [5VSYS_LATCH] of RN7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3602.82 mils, 2628.70 mils): Pad 5 [Net-(U3-B5)] of RN5 on F.Cu
+    @(3622.51 mils, 2628.70 mils): Pad 6 [Net-(U3-B6)] of RN5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3642.19 mils, 2628.70 mils): Pad 7 [Net-(U3-B7)] of RN5 on F.Cu
+    @(3661.88 mils, 2628.70 mils): Pad 8 [Net-(U3-B8)] of RN5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4540.65 mils, 4759.53 mils): Pad 1 [Net-(U21-HYS)] of RN8 on F.Cu
+    @(4540.65 mils, 4739.84 mils): Pad 2 [Net-(U21-DELAY)] of RN8 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4540.65 mils, 4720.16 mils): Pad 3 [Net-(U21-LATCH)] of RN8 on F.Cu
+    @(4540.65 mils, 4700.47 mils): Pad 4 [Net-(U21-EN)] of RN8 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4501.28 mils, 4700.47 mils): Pad 5 [5VPL_EN] of RN8 on F.Cu
+    @(4501.28 mils, 4720.16 mils): Pad 6 [5VPL_LATCH] of RN8 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3556.88 mils, 2589.33 mils): Pad 1 [/H1-17] of RN4 on F.Cu
+    @(3537.19 mils, 2589.33 mils): Pad 2 [/H1-39] of RN4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3517.51 mils, 2589.33 mils): Pad 3 [/H1-19] of RN4 on F.Cu
+    @(3497.82 mils, 2589.33 mils): Pad 4 [/MISO_SYS] of RN4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3497.82 mils, 2628.70 mils): Pad 5 [Net-(U3-B1)] of RN4 on F.Cu
+    @(3517.51 mils, 2628.70 mils): Pad 6 [Net-(U3-B2)] of RN4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 5.91 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3537.19 mils, 2628.70 mils): Pad 7 [Net-(U3-B3)] of RN4 on F.Cu
+    @(3556.88 mils, 2628.70 mils): Pad 8 [Net-(U3-B4)] of RN4 on F.Cu
+[clearance]: Clearance violation (netclass '90ohm diff' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass '90ohm diff'; Severity: error
+    @(4962.15 mils, 2694.61 mils): Pad 1 [USB_D-] of U15 on B.Cu
+    @(4883.41 mils, 2743.82 mils): Pad 25 [-BATT] of U15 on B.Cu
+[clearance]: Clearance violation (netclass '90ohm diff' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass '90ohm diff'; Severity: error
+    @(4962.15 mils, 2694.61 mils): Pad 1 [USB_D-] of U15 on B.Cu
+    @(4962.15 mils, 2714.30 mils): Pad 2 [USB_STAT] of U15 on B.Cu
+[clearance]: Clearance violation (netclass '90ohm diff' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass '90ohm diff'; Severity: error
+    @(4912.93 mils, 2665.08 mils): Pad 23 [5VUSB] of U15 on B.Cu
+    @(4932.62 mils, 2665.08 mils): Pad 24 [USB_D+] of U15 on B.Cu
+[clearance]: Clearance violation (netclass '90ohm diff' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass '90ohm diff'; Severity: error
+    @(4932.62 mils, 2665.08 mils): Pad 24 [USB_D+] of U15 on B.Cu
+    @(4883.41 mils, 2743.82 mils): Pad 25 [-BATT] of U15 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2473.74 mils, 5558.11 mils): Pad 11 [unconnected-(U28-DIO3-Pad11)] of U28 on B.Cu
+    @(2387.09 mils, 5557.80 mils): Pad 3 [unconnected-(U27-GPIO_3-Pad3)] of U27 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2473.74 mils, 5243.15 mils): Pad 15 [unconnected-(U28-DIO1-Pad15)] of U28 on B.Cu
+    @(2387.09 mils, 5242.83 mils): Pad 7 [unconnected-(U27-GPIO_1-Pad7)] of U27 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(2473.74 mils, 5164.41 mils): Pad 16 [unconnected-(U28-DIO2-Pad16)] of U28 on B.Cu
+    @(2387.09 mils, 5164.09 mils): Pad 8 [unconnected-(U27-GPIO_2-Pad8)] of U27 on B.Cu
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3056.77 mils, 3966.77 mils): Track [USB_D+] on F.Cu, length 8.53 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3135.00 mils, 4045.00 mils): Track [USB_D+] on F.Cu, length 110.64 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3158.51 mils, 4073.72 mils): Track [USB_D+] on F.Cu, length 33.25 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3159.65 mils, 4073.72 mils): Track [USB_D+] on F.Cu, length 1.14 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3135.00 mils, 4050.21 mils): Track [USB_D+] on F.Cu, length 5.21 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3066.62 mils, 3956.62 mils): Track [USB_D-] on F.Cu, length 8.24 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3173.57 mils, 4059.80 mils): Track [USB_D-] on F.Cu, length 1.21 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3147.56 mils, 4035.00 mils): Track [USB_D-] on F.Cu, length 2.56 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3145.00 mils, 4035.00 mils): Track [USB_D-] on F.Cu, length 110.85 mils
+[track_width]: Track width (netclass '90ohm diff' (diff pair) min width 6.00 mils; actual 5.55 mils)
+    Rule: netclass '90ohm diff' (diff pair); Severity: error
+    @(3172.36 mils, 4059.80 mils): Track [USB_D-] on F.Cu, length 35.07 mils
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(4884.11 mils, 2271.50 mils): Zone [-BATT] on F.Cu
+    @(5131.10 mils, 2245.00 mils): Pad 2 [-BATT] of C121 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(4884.11 mils, 2271.50 mils): Zone [-BATT] on F.Cu
+    @(5154.78 mils, 2150.00 mils): Pad 2 [-BATT] of U36 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(4884.11 mils, 2271.50 mils): Zone [-BATT] on F.Cu
+    @(4511.10 mils, 2485.00 mils): Pad 2 [-BATT] of C61 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(4883.11 mils, 2018.50 mils): Zone [-BATT] on B.Cu
+    @(4853.88 mils, 2665.08 mils): Pad 20 [-BATT] of U15 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(4800.00 mils, 4099.92 mils): Pad 1 [GND] of R28 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(3499.41 mils, 3164.33 mils): Pad 4 [GND] of Q46 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(4489.41 mils, 3842.60 mils): Pad 1 [GND] of Q10 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(4607.80 mils, 4349.41 mils): Pad 1 [GND] of Q36 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(3499.41 mils, 3009.33 mils): Pad 4 [GND] of Q47 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(5094.88 mils, 3214.29 mils): Pad 6 [GND] of U11 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(2454.41 mils, 3337.60 mils): Pad 4 [GND] of Q42 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(5070.08 mils, 2945.00 mils): Pad 2 [GND] of R51 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(3499.41 mils, 2812.60 mils): Pad 4 [GND] of Q50 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(2000.61 mils, 2018.50 mils): Zone [GND] on F.Cu and 3 more
+    @(5014.88 mils, 3754.29 mils): Pad 6 [GND] of U13 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
